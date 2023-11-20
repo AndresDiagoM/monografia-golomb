@@ -1,0 +1,104 @@
+\documentclass[12pt,a4paper,oneside,english,spanish]{book}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[document]{ragged2e}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{multirow} 
+\usepackage{xcolor, colortbl}
+\usepackage{hyperref}
+\usepackage{comment}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{bigstrut}
+\usepackage{float}
+\usepackage{longtable}
+\usepackage{pdfpages}
+\usepackage[spanish]{babel}
+\usepackage{biblatex}
+\usepackage{csquotes}
+\usepackage[acronym]{glossaries}
+\makeglossaries
+%%\usepackage{datetime}
+%%\usepackage{mfirstuc}
+%% PARA ROTAR TABLAS o PÁGINAS
+\usepackage{lscape}
+
+%%PARA DIAGRAMAS DE GANTT
+%%\usepackage{tikz}
+\usepackage{pgfgantt}
+\usepackage{xcolor}
+
+%%%%%%%%%%%%%%%%%%PAGE SETTINGS%%%%%%%%%%%%%%%%%%%%%%
+\graphicspath{{img/}}
+\addbibresource{bibliography.bib}
+
+\definecolor{groupblue}{RGB}{51, 153, 255}
+% Define the barblue color
+\definecolor{barblue}{RGB}{0, 64, 128}
+\definecolor{linkred}{RGB}{165,0,33}
+
+%%Color para las tablas
+%%\usepackage[table]{xcolor}% http://ctan.org/pkg/xcolor
+
+%%--USAR ARCHIVO .BIB
+%\usepackage{chicago}
+
+
+\title{Monografía}
+\author{}
+\date{\today}
+\setcounter{tocdepth}{3} 
+
+\begin{document}
+
+    \pagenumbering{gobble} 
+    \renewcommand{\refname}{}
+    \renewcommand{\tablename}{Tabla}
+
+
+    %%--------------- PORTADA ------------------
+    \input{lib/0-portada}
+        
+    \newpage
+    \renewcommand{\contentsname}{\centering TABLA DE CONTENIDO}
+    \vfill
+    \tableofcontents
+    \cleardoublepage 
+
+    \renewcommand{\listtablename}{\centering LISTA DE TABLAS}
+    \listoftables
+    \cleardoublepage 
+
+    % lista de figuras
+    \renewcommand{\listfigurename}{\centering LISTA DE FIGURAS}
+    \listoffigures
+    \cleardoublepage 
+
+    %lista de acrónimos
+    \input{lib/abbreviations}
+    \cleardoublepage 
+    \printglossary[type=\acronymtype, title=\centering LISTA DE ACRÓNIMOS]
+
+
+    \newpage
+    % Restore page numbering after the pages without numbering
+    \pagenumbering{arabic}
+
+    \input{lib/1cap}
+    \input{lib/2cap}
+    \input{lib/3objetivos}
+    \input{lib/4actividades}
+    \input{lib/5recursos}
+    \input{lib/6condiciones}
+    \printbibliography[title={Bibliografía}]
+    %\input{lib/7referencias}
+    %\bibliographystyle{chicago}
+    %\bibliography{biografia}
+    \input{lib/8actain}
+    %\input{9anexos}
+\end{document}
