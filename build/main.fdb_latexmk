@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber build/main"] 1701217870 "build/main.bcf" "build/main.bbl" "build/main" 1701218007 0
+["biber build/main"] 1701217870 "build/main.bcf" "build/main.bbl" "build/main" 1701225680 0
   "./bibliography.bib" 1701217801 8660 2f5644313b7d759c99193f7d6531523f ""
-  "build/main.bcf" 1701218007 107396 fe02d2430e3bd00c39f49ff3031aed1c "pdflatex"
+  "build/main.bcf" 1701225679 107396 fe02d2430e3bd00c39f49ff3031aed1c "pdflatex"
   (generated)
   "build/main.bbl"
   "build/main.blg"
   (rewritten before read)
-["pdflatex"] 1701218005 "c:/Users/felip/OneDrive/Documentos/Unicauca/TESIS/Monografia-golomb/main.tex" "build/main.pdf" "main" 1701218007 0
+["pdflatex"] 1701225677 "c:/Users/felip/OneDrive/Documentos/Unicauca/TESIS/Monografia-golomb/main.tex" "build/main.pdf" "main" 1701225680 0
   "C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1136790254 4484 b828043cbd581d289d955903c1339981 ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/helvetic/phvb8t.tfm" 1136790254 6628 34c39492c0adc454c1c199922bba8363 ""
@@ -252,20 +252,20 @@
   "C:/Users/felip/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1699294465 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/felip/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1699294474 24203019 d73732c228f74f989f026b3aafdf8326 ""
   "build/main.acr" 0 -1 0 ""
-  "build/main.aux" 1701218007 3011 251d830c3979565360026687b559f4b7 "pdflatex"
+  "build/main.aux" 1701225679 3922 c32742bf2531759f9166e62defc8cec8 "pdflatex"
   "build/main.bbl" 1701217872 4159 0e7ce7d05f9e5ac7bf2e2f4358eff50c "biber build/main"
-  "build/main.glsdefs" 1701218007 1606 165ff77703afdc177f426a1e9b0a1e5f "pdflatex"
-  "build/main.lof" 1701218007 110 23afabf659c39586fe5fdf469f0fda26 "pdflatex"
-  "build/main.lot" 1701218007 110 23afabf659c39586fe5fdf469f0fda26 "pdflatex"
-  "build/main.out" 1701218007 1824 3893b107434c7b230b67d3acfd87f240 "pdflatex"
-  "build/main.run.xml" 1701218007 2435 5771f3f092c38a70e8998fd6000aad44 "pdflatex"
-  "build/main.toc" 1701218007 936 7d13f6810284eb6c7daea2c3f19f327d "pdflatex"
+  "build/main.glsdefs" 1701225679 1606 165ff77703afdc177f426a1e9b0a1e5f "pdflatex"
+  "build/main.lof" 1701225679 110 23afabf659c39586fe5fdf469f0fda26 "pdflatex"
+  "build/main.lot" 1701225679 110 23afabf659c39586fe5fdf469f0fda26 "pdflatex"
+  "build/main.out" 1701225679 3044 bdb434d316cf59a27ef250fbed113c9a "pdflatex"
+  "build/main.run.xml" 1701225679 2435 5771f3f092c38a70e8998fd6000aad44 "pdflatex"
+  "build/main.toc" 1701225679 1579 5929c782708c2f6a3380871e0715b102 "pdflatex"
   "c:/Users/felip/OneDrive/Documentos/Unicauca/TESIS/Monografia-golomb/main.tex" 1700589742 2386 49a851e4fdec07687d9617e8e0dbf2bd ""
   "img/logo-unicauca.png" 1695393573 13739 e6a81e39e83a84dc8728d0e9b8420f45 ""
   "lib/0-portada.tex" 1701217700 949 ea0824afa858babc709b0222c9991704 ""
-  "lib/1cap.tex" 1701217771 7552 b4c5b3b5923c888ccddd3fa21800fc7e ""
-  "lib/2cap.tex" 1701218004 521 0c58eb83eae39bab3d5285e2ccd69f50 ""
-  "lib/3cap.tex" 1700589682 74 9ee8b33fc88fac717ac3f8ffcfba7da1 ""
+  "lib/1cap.tex" 1701225635 9639 c4ee18966ccd7f3b47f1c2d6bc7651f9 ""
+  "lib/2cap.tex" 1701225658 6582 4fa19e95e298ff3a6c9c79d6e38b00ef ""
+  "lib/3cap.tex" 1701225674 57 1319b79d1341ebc8d58c70fd0ab6a584 ""
   "lib/4cap.tex" 1700589473 55 192d7c2f0bda4a5b82e21337b5f5a7fc ""
   "lib/abbreviations.tex" 1695405228 579 9ece8503fdab79dc2a01c56ee0671815 ""
   "main.acr" 0 -1 0 ""

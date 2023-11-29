@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.6)  28 NOV 2023 19:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.6)  28 NOV 2023 21:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1175,7 +1175,7 @@ Dictionary: translator-months-dictionary, Language: English
 ) (C:\Program Files\MiKTeX\tex/latex/translator\translator-months-dictionary-Spanish.dict
 Dictionary: translator-months-dictionary, Language: Spanish 
 ) (lib/0-portada.tex
-<img/logo-unicauca.png, id=50, 222.8325pt x 227.85126pt>
+<img/logo-unicauca.png, id=78, 222.8325pt x 227.85126pt>
 File: img/logo-unicauca.png Graphic file (type png)
 <use img/logo-unicauca.png>
 Package pdftex.def Info: img/logo-unicauca.png  used on input line 5.
@@ -1263,32 +1263,42 @@ Cap\'{\i }tulo 1.
 [1
 
 ]
-LaTeX Info: Redefining \. on input line 61.
-LaTeX Info: Redefining \% on input line 61.
+LaTeX Info: Redefining \. on input line 38.
+LaTeX Info: Redefining \% on input line 38.
  [2]) (lib/2cap.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [3]
 Cap\'{\i }tulo 2.
-) (lib/3cap.tex [4
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 10.
+
+[4
 
 ]
+LaTeX Info: Redefining \. on input line 44.
+LaTeX Info: Redefining \% on input line 44.
+ [5]) (lib/3cap.tex
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [6]
 Cap\'{\i }tulo 3.
-) (lib/4cap.tex [5
+) (lib/4cap.tex [7
 
 ]
 Cap\'{\i }tulo 4.
-) [6
+) [8
 
 ]
 LaTeX Info: Redefining \. on input line 101.
 LaTeX Info: Redefining \% on input line 101.
- [7]
+ [9]
 Overfull \hbox (23.5934pt too wide) in paragraph at lines 101--101
 \T1/phv/m/n/12 tems Ap-pli-ca-tions,^^T \T1/phv/m/sl/12 Jour-nal of Light-wa-ve Tech-no-logy\T1/phv/m/n/12 , vol. 23, n.[] 11, págs. 3449[]3465,
  []
 
-[8
+[10
 
 ] (c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.aux
 LaTeX Info: Redefining \sptext on input line 19.
@@ -1300,23 +1310,23 @@ LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3893B107434C7B230B67D3ACFD87F240;1824.
+(rerunfilecheck)             Checksum: BDB434D316CF59A27EF250FBED113C9A;3044.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39448 strings out of 474592
- 761284 string characters out of 5755614
- 1935533 words of memory out of 5000000
- 60905 multiletter control sequences out of 15000+600000
+ 39464 strings out of 474592
+ 761544 string characters out of 5755614
+ 1937533 words of memory out of 5000000
+ 60912 multiletter control sequences out of 15000+600000
  587167 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  103i,9n,106p,2406b,1920s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.pdf (14 pages, 81419 bytes).
+Output written on c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.pdf (16 pages, 94692 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 201 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 
