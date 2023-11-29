@@ -1,7 +1,7 @@
-PWD c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC
+PWD c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb
 INPUT C:\Users\felip\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\main.tex
-OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.log
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\main.tex
+OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.log
 INPUT C:\Program Files\MiKTeX\tex\latex\base\book.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\book.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\bk12.clo
@@ -171,15 +171,26 @@ INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-compat.def
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex-ieee\ieee.bbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex-ieee\ieee.bbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex-ieee\ieee.bbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\numeric-comp.bbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\numeric-comp.bbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\numeric-comp.bbx
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\numeric.bbx
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\numeric.bbx
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\numeric.bbx
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\bbx\standard.bbx
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\cbx\numeric.cbx
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\cbx\numeric.cbx
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\cbx\numeric.cbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\english.lbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\english.lbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex-ieee\ieee.cbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex-ieee\ieee.cbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex-ieee\ieee.cbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\cbx\numeric-comp.cbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\cbx\numeric-comp.cbx
+INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\cbx\numeric-comp.cbx
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.cfg
@@ -281,8 +292,8 @@ INPUT C:\Program Files\MiKTeX\tex\latex\glossaries\styles\glossary-super.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\supertabular\supertabular.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\glossaries\styles\glossary-tree.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\glossaries\styles\glossary-tree.sty
-OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.glo
-OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.acn
+OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.glo
+OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.acn
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgfgantt\pgfgantt.sty
@@ -410,10 +421,10 @@ INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\t1phv.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\t1phv.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\t1phv.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.aux
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.aux
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.aux
-OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.aux
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.aux
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.aux
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.aux
+OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.aux
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -422,14 +433,14 @@ INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.out
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.out
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.out
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.out
-OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.pdf
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.out
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.out
-OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.out
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.out
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.out
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.out
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.out
+OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.pdf
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.out
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.out
+OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.out
 INPUT C:\Program Files\MiKTeX\tex\latex\pdflscape\pdflscape.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pdflscape\pdflscape.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
@@ -438,17 +449,15 @@ INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\english.lbx
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\english.lbx
-INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\english.lbx
-OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.bcf
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.bbl
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.bbl
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.bbl
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.bbl
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.bbl
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.glsdefs
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.glsdefs
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.glsdefs
+OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.bcf
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.bbl
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.bbl
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.bbl
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.bbl
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.bbl
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.glsdefs
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.glsdefs
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.glsdefs
 INPUT C:\Program Files\MiKTeX\tex\latex\glossaries-english\glossaries-dictionary-English.dict
 INPUT C:\Program Files\MiKTeX\tex\latex\glossaries-english\glossaries-dictionary-English.dict
 INPUT C:\Program Files\MiKTeX\tex\latex\glossaries-english\glossaries-dictionary-English.dict
@@ -475,7 +484,7 @@ INPUT .\img\logo-unicauca.png
 INPUT .\img\logo-unicauca.png
 INPUT .\img\logo-unicauca.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
-OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.ist
+OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.ist
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT C:\Users\felip\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
@@ -486,9 +495,9 @@ INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.toc
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.toc
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.toc
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.toc
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.toc
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.toc
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
@@ -500,23 +509,23 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.toc
+OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.toc
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.lot
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.lot
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.lot
-OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.lot
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.lof
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.lof
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.lof
-OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.lof
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.lot
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.lot
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.lot
+OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.lot
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.lof
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.lof
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.lof
+OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.lof
 INPUT .\lib\abbreviations.tex
 INPUT .\lib\abbreviations.tex
 INPUT .\lib\abbreviations.tex
 INPUT .\lib\abbreviations.tex
 INPUT lib\abbreviations.tex
-OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.glsdefs
+OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.glsdefs
 INPUT .\lib\1cap.tex
 INPUT .\lib\1cap.tex
 INPUT .\lib\1cap.tex
@@ -526,82 +535,33 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT .\lib\2cap.tex
 INPUT .\lib\2cap.tex
 INPUT .\lib\2cap.tex
 INPUT .\lib\2cap.tex
 INPUT lib\2cap.tex
-INPUT .\lib\3objetivos.tex
-INPUT .\lib\3objetivos.tex
-INPUT .\lib\3objetivos.tex
-INPUT .\lib\3objetivos.tex
-INPUT lib\3objetivos.tex
+INPUT .\lib\3cap.tex
+INPUT .\lib\3cap.tex
+INPUT .\lib\3cap.tex
+INPUT .\lib\3cap.tex
+INPUT lib\3cap.tex
+INPUT .\lib\4cap.tex
+INPUT .\lib\4cap.tex
+INPUT .\lib\4cap.tex
+INPUT .\lib\4cap.tex
+INPUT lib\4cap.tex
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
-INPUT .\lib\4actividades.tex
-INPUT .\lib\4actividades.tex
-INPUT .\lib\4actividades.tex
-INPUT .\lib\4actividades.tex
-INPUT lib\4actividades.tex
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
-INPUT .\img\Actividades - cronograma.pdf
-INPUT .\img\Actividades - cronograma.pdf
-INPUT .\img\Actividades - cronograma.pdf
-INPUT .\img\Actividades - cronograma.pdf
-INPUT .\img\Actividades - cronograma.pdf
-INPUT .\img\Actividades - cronograma.pdf
-INPUT .\img\Actividades - cronograma.pdf
-INPUT .\img\Actividades - cronograma.pdf
-INPUT .\img\Actividades - cronograma.pdf
-INPUT .\img\Actividades - cronograma.pdf
-INPUT .\img\Actividades - cronograma.pdf
-INPUT .\img\Actividades - cronograma.pdf
-INPUT .\img\Actividades - cronograma.pdf
-INPUT .\img\Actividades - cronograma.pdf
-INPUT .\img\Actividades - cronograma.pdf
-INPUT .\img\Actividades - cronograma.pdf
-INPUT .\img\Actividades - cronograma.pdf
-INPUT .\lib\5recursos.tex
-INPUT .\lib\5recursos.tex
-INPUT .\lib\5recursos.tex
-INPUT .\lib\5recursos.tex
-INPUT lib\5recursos.tex
-INPUT .\lib\6condiciones.tex
-INPUT .\lib\6condiciones.tex
-INPUT .\lib\6condiciones.tex
-INPUT .\lib\6condiciones.tex
-INPUT lib\6condiciones.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvrc8t.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\base\t1cmtt.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\base\t1cmtt.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\base\t1cmtt.fd
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ectt1200.tfm
-INPUT .\lib\8actain.tex
-INPUT .\lib\8actain.tex
-INPUT .\lib\8actain.tex
-INPUT .\lib\8actain.tex
-INPUT lib\8actain.tex
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvrc8t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.aux
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.out
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.out
-INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.run.xml
-OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.run.xml
-INPUT C:\Users\felip\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
-INPUT C:\Users\felip\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.aux
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.out
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.out
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.run.xml
+OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.run.xml
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\helvetic\uhvr8a.pfb

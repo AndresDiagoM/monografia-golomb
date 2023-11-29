@@ -1,16 +1,18 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'build/main.blg'
-[104] biber-MSWIN64:340> INFO - === 
-[138] Biber.pm:419> INFO - Reading 'build/main.bcf'
-[232] Biber.pm:979> INFO - Found 7 citekeys in bib section 0
-[246] Biber.pm:4419> INFO - Processing section 0
-[257] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 0
-[302] bibtex.pm:1713> INFO - LaTeX decoding ...
-[308] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
-[358] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[359] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[359] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'es-ES'
-[372] bbl.pm:660> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
-[376] bbl.pm:763> INFO - Output to build/main.bbl
-[376] Biber.pm:131> WARN - legacy year field 'Year' in entry 'AnaSaucedo' is not an integer - this will probably not sort properly.
-[377] Biber.pm:133> INFO - WARNINGS: 1
+[117] biber-MSWIN64:340> INFO - === 
+[151] Biber.pm:419> INFO - Reading 'build/main.bcf'
+[261] Biber.pm:979> INFO - Found 3 citekeys in bib section 0
+[276] Biber.pm:4419> INFO - Processing section 0
+[288] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[337] bibtex.pm:1713> INFO - LaTeX decoding ...
+[365] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
+[409] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[409] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[409] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[411] bbl.pm:660> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
+[413] bbl.pm:763> INFO - Output to build/main.bbl
+[413] Biber.pm:131> WARN - Duplicate entry key: 'Bansal' in file 'bibliography.bib', skipping ...
+[413] Biber.pm:131> WARN - Duplicate entry key: 'Chen' in file 'bibliography.bib', skipping ...
+[413] Biber.pm:131> WARN - Duplicate entry key: 'Sugumaran' in file 'bibliography.bib', skipping ...
+[413] Biber.pm:133> INFO - WARNINGS: 3

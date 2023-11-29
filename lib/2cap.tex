@@ -1,60 +1,12 @@
-\chapter{Marco Teórico}
-\label{chap2:marcoteorico}
+\chapter{CONCEPTOS Y TECNOLOGÍAS}
+\label{chap2:conceptos}
 
-\begin{center}
-    \item \section{ESTADO DEL ARTE}
-\end{center}
-
-A continuación, se describen algunos de los trabajos encontrados en la literatura disponible y relacionada con el objeto del presente trabajo de grado.
-
-
-Investigaciones internacionales:
-
-\paragraph{SEGURIDAD DE APLICACIONES WEB BASADAS EN LAS TECNOLOGÍAS NODE.JS Y MONGODB: ESTUDIO Y CASO DE USO \cite{PedroRuiz}}
-Este proyecto realizado en el año 2018, presenta las principales amenazas que se pueden encontrar en aplicaciones web desarrolladas mediante enfoques centrados en el lado del cliente, teniendo en cuenta la ubicuidad del cliente y el acceso a la información y plataformas mediante dispositivos móviles. Esto se realiza como parte del diseño y la implementación de aplicación web que busca controlar las mercancías y la logística de una empresa. Como parte de este proceso, se realiza un estudio de las vulnerabilidades de las aplicaciones cloud móviles, con el fin de que toda la solución software sea diseñada considerando las vulnerabilidades estudiadas a lo largo del trabajo, de forma que cuando se realice la implementación se han tenido en cuenta las principales amenazas a la seguridad de aplicaciones web desarrolladas en el lado del cliente, implementándose en cada caso las contramedidas necesarias.
-
-\paragraph{Técnicas de mitigación para principales vulnerabilidades de seguridad en aplicaciones web \cite{AlexZambrano}}
-En este proyecto desarrollado en el año 2018, se analiza las principales vulnerabilidades que se encuentran en las aplicaciones web, y se propone el uso de diferentes técnicas para mitigar esas debilidades. El autor menciona que el activo más valioso de las organizaciones actualmente son los datos de los sistemas de información, y por esta razón, se hace de vital importancia para las empresas la seguridad de estos recursos frente a posibles ataques. Además, menciona que en el desarrollo de las aplicaciones web se debe tener en cuenta las amenazas que involucra el entorno web, por lo que existen vulnerabilidades en la codificación del aplicativo, en la transmisión de los datos, sus comunicaciones, el almacenamiento, controles de acceso, confidencialidad e integridad.
-Luego de realizar el análisis y listado de las vulnerabilidades, las cuales se agrupan en los temas de inyecciones; autenticación y gestión de sesiones; exposición de datos sensibles; control de acceso; y secuencia de comandos en sitios cruzados. Se menciona que existen diversos mecanismos y técnicas de mitigación, por lo cual se establece unos mecanismos para mitigar cada una de esas debilidades listadas. Concluyendo que no existe un solo mecanismo para brindar seguridad en los sistemas, por lo que es necesario aplicar varias técnicas para mitigar las vulnerabilidades, las cuales deberán inicializar desde el proceso de desarrollo del aplicativo hasta la finalización del ciclo de vida.
-
-\paragraph{Guía de ataques, vulnerabilidades, técnicas y herramientas para aplicaciones web \cite{AnaSaucedo}}
-En este estudio se menciona que hay un crecimiento en la complejidad de las tecnologías de la información, lo cual implica un mayor riesgo para los sistemas informáticos, teniendo como consecuencia el aumento en el número de ataques que se aprovechan de las vulnerabilidades. Por esta razón, se revisa algunas de las técnicas y herramientas utilizadas para la detección, realizando una matriz de trazabilidad entre ataques, vulnerabilidades, técnicas y herramientas que determinarán cuales debilidades pueden ser mitigadas con la utilización de dichas técnicas y herramientas. Para lograr esto, se utilizó el protocolo de la revisión sistemática, lo cual les permite realizar la matriz de trazabilidad, y hacer una propuesta para la utilización de herramientas para cada ataque basado en vulnerabilidades.
-
-\paragraph{Seguridad web con NodeJS en un sistema de gestión de horarios laborales \cite{JorgeLascorz}}
-En este trabajo llevado a cabo en el año 2017, como proyecto de fin de máster, el autor desarrolla una aplicación de gestión de horarios laborales, abordando los temas de seguridad web cuando se utiliza NodeJS y el framework ExpressJS. 
-Se da una introducción al contexto del lenguaje javascript, el cual está viviendo una gran evolución que ha generado la aparición de muchos frameworks, como Angular, React o Vue para el frontend, o Node y Meteor para el backend. En el mismo tiempo de esta evolución, también han crecido los ataques informáticos como las filtraciones de datos confidenciales, ataques a servidores y capturas de información como WannaCry o Petya.
-Luego se define lo que es NodeJS, que es una tecnología diseñada para la ejecución de tareas por parte del servidor, contando con ciertas ventajas frente a otros sistemas tradicionales como lo es su característica de ser dirigido por eventos no bloqueantes. Mientras que ExpressJS, es un framework minimalista de NodeJS, que permite una flexibilidad al desarrollar.
-En el apartado de seguridad, es posible observar la identificación que se realiza de los ataques web más conocidos, y la forma como se busca evitar estas amenazas, como la utilización del estándar de JSON Web Tokens para la autenticación de usuarios, evitando los ataques de robo de sesión.
-
-\paragraph{ Seguridad en aplicaciones Web \cite{DiegoLosada}}
-En este trabajo desarrollado en el año 2015, el autor presenta la construcción de una aplicación web que permite analizar una determinada vulnerabilidad web en un servidor externo. Para este caso, se elige la SQL injection (inyección de código SQL), ya que es una de las amenazas más criticas y extendidas, por lo que el autor sugiere que es buena idea tener la posibilidad de realizar un análisis de SQL injection desde un navegador web, facilitando así las pruebas de penetración que se realizan en búsqueda de debilidades. Esta aplicación es capaz de realizar este análisis, procesar la información y almacenarla para el usuario. En contraste, el autor define esta vulnerabilidad, explicando el contexto donde este tipo de ataque sucede, y la importancia que tiene por su peligrosidad, siendo así el ataque que OWASP declaró como el más crítico en un sistema. El autor también mencionan que, SQL es el lenguaje de acceso a base de datos que se caracteriza por su sencillez y gestores de bases de datos como MySQL, Oracle o SQLite, que ha provocado que este sea el más utilizado. Por esto, en el trabajo se menciona como protegerse frente a este ataque, donde se puede destacar que lo más importante es interpretar los datos recibidos en el servidor como código, lo cual es la base de todo el abanico de técnicas que existen. 
+Una vez definido el motivo y los objetivos del trabajo y antes de dar un enfoque
+directamente sobre el problema, es necesario saber la situación actual del mismo.
+Comprender el objetivo, las tecnologías y arquitecturas utilizadas, es esencial para conocer el contexto del problema. En este capítulo hablaremos sobre los conceptos principales que se van a tratar a lo largo del proyecto.
 
 
 
-Investigaciones nacionales:
-
-\paragraph{AMENAZAS, VULNERABILIDADES, FACTORES DE RIESGO Y DEFENSA EN PROFUNDIDAD EN APLICACIONES WEB \cite{CarlosSerna} }
-En este artículo realizado en el año 2016, se explica la importancia que tiene para las organizaciones realizar o contar con una aplicación web, ya que estas permiten una comunicación activa entre el usuario y la información, demostrando como las organizaciones al momento de exponer sus servicios informáticos a redes de acceso tendrán que realizar un esfuerzo significativo para asegurar que la información y recursos están protegidos. Se define lo que es una aplicación web, los tipos de desarrollo que tienen las aplicaciones web y los tipos de estructuras en capas que se tiene, la cual consta de el navegador, el servidor donde se aloja el código, y la capa de base de datos. Además, se hace una identificación de las principales amenazas y cómo afectan a las aplicaciones, para aclarar las posibles vulnerabilidades y los controles adecuados que se pueden seguir en cada capa de riesgo. El autor concluye diciendo que la utilización de una metodología adecuada de gestión del riesgo y la implementación oportuna de controles reduce notablemente los incidentes de seguridad.
-
-\paragraph{RETOS DE LA SEGURIDAD INFORMÁTICA EN SERVIDORES NODE JS \cite{AriasMelo}}
-Este trabajo de grado llevado a cabo en el año 2016, menciona la evolución del lenguaje javascript para brindar una interfaz de usuario de fácil navegación, con dinamismo, para mejorar la experiencia de usuario. Considerando la importancia del nacimiento de NodeJS, que permite traer este lenguaje del lado del servidor para competir con otros lenguajes. Teniendo en cuenta esto, junto con las necesidades organizacionales por los desarrollos de páginas web, surgen retos en cuanto a la seguridad informática, ya que de esto depende la credibilidad de la organización.
-%El autor describe como surge javascript, aclarando los diferentes estándares como ECMAScript que permitieron definir la base del lenguaje, y se añade algunas características de la POO, para facilitar la escritura como en otros lenguajes. 
-Sin embargo, el autor describe los riesgos y desventajas de javascript, que se pueden presentar por el echo de que este se utiliza del lado del cliente, y la falta de confidencialidad que genera. En este sentido, la seguridad en NodeJS depende de los desarrolladores, debido a las configuraciones predeterminadas mínimas y la arquitectura. Es por esto que el autor menciona el proyecto OWASP top 10, para describir las vulnerabilidades más importantes, y el projecto OWASP NodeGoat que permite permite conocer como se fucionan las vulnerabilidades aprojectos NodeJS.   
+\section{Multiplexación por División de Longitud de Onda (WDM)}
 
 
-%%% secrets manager, evitar colocar credenciales en el codigo. servidores en la nube, docker con nodejs
-
-%%%%-----  APORTES DE ESTE TRABAJO DE GRADO A LA INVESTIGACIÓN:
-El presente trabajo de grado contribuye con el área de interés en el área de los sistemas telemáticos. En particular lo relacionado con la seguridad de las aplicaciones web.
-
-\begin{itemize}
-    \item Identificar las vulnerabilidades que se pueden generar cuando se desarrolla con NodeJS en conjunto con express.
-    \item Propuesta de un modelo replicable para que minimice las vulnerabilidades cuando se desarrolla con NodeJS.
-\end{itemize}
-
-%%%  estructura para cada articulo:
-    %%  cita, el nombre
-    %%  objetivo
-    %%  tema tratado
-    %%  resultados
-    %%  conclusion

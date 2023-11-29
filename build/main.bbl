@@ -18,236 +18,86 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global}
-    \entry{PedroRuiz}{article}{}
+  \datalist[entry]{none/global//global/global}
+    \entry{Toulouse}{article}{}
       \name{author}{1}{}{%
-        {{hash=1e0c3ce7d09344558a3cb50c602765a9}{%
-           family={González},
-           familyi={G\bibinitperiod},
-           given={Pedro\bibnamedelimb Alberto\bibnamedelima Ruiz},
-           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=2cc12588fadbe6ca722064d25efdef4c}{%
+           family={Toulouse},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
       }
-      \list{institution}{1}{%
-        {Universidad Autónoma de Madrid}%
-      }
-      \strng{namehash}{1e0c3ce7d09344558a3cb50c602765a9}
-      \strng{fullhash}{1e0c3ce7d09344558a3cb50c602765a9}
-      \strng{bibnamehash}{1e0c3ce7d09344558a3cb50c602765a9}
-      \strng{authorbibnamehash}{1e0c3ce7d09344558a3cb50c602765a9}
-      \strng{authornamehash}{1e0c3ce7d09344558a3cb50c602765a9}
-      \strng{authorfullhash}{1e0c3ce7d09344558a3cb50c602765a9}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \strng{namehash}{2cc12588fadbe6ca722064d25efdef4c}
+      \strng{fullhash}{2cc12588fadbe6ca722064d25efdef4c}
+      \strng{bibnamehash}{2cc12588fadbe6ca722064d25efdef4c}
+      \strng{authorbibnamehash}{2cc12588fadbe6ca722064d25efdef4c}
+      \strng{authornamehash}{2cc12588fadbe6ca722064d25efdef4c}
+      \strng{authorfullhash}{2cc12588fadbe6ca722064d25efdef4c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{SEGURIDAD DE APLICACIONES WEB BASADAS EN LAS TECNOLOGÍAS NODE.JS Y MONGODB: ESTUDIO Y CASO DE USO}
-      \field{year}{2018}
-      \verb{urlraw}
-      \verb https://repositorio.uam.es/bitstream/handle/10486/684807/ruiz_gonzalez_pedroalberto_tfm.pdf?sequence=1&isAllowed=y
-      \endverb
-      \verb{url}
-      \verb https://repositorio.uam.es/bitstream/handle/10486/684807/ruiz_gonzalez_pedroalberto_tfm.pdf?sequence=1&isAllowed=y
-      \endverb
+      \field{journaltitle}{Journal of Lightwave Technology}
+      \field{number}{11}
+      \field{title}{Optical Nonlinearities in Fibers: Review, Recent Examples, and Systems Applications}
+      \field{volume}{23}
+      \field{year}{2005}
+      \field{pages}{3449\bibrangedash 3465}
+      \range{pages}{17}
     \endentry
-    \entry{AriasMelo}{article}{}
-      \name{author}{1}{}{%
-        {{hash=08800e6ff0740b4e7f1448a82afcdac0}{%
-           family={Hernando},
-           familyi={H\bibinitperiod},
-           given={Arias\bibnamedelimb Melo\bibnamedelima Yeison},
-           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Universidad Piloto de Colombia}%
-      }
-      \strng{namehash}{08800e6ff0740b4e7f1448a82afcdac0}
-      \strng{fullhash}{08800e6ff0740b4e7f1448a82afcdac0}
-      \strng{bibnamehash}{08800e6ff0740b4e7f1448a82afcdac0}
-      \strng{authorbibnamehash}{08800e6ff0740b4e7f1448a82afcdac0}
-      \strng{authornamehash}{08800e6ff0740b4e7f1448a82afcdac0}
-      \strng{authorfullhash}{08800e6ff0740b4e7f1448a82afcdac0}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{RETOS DE LA SEGURIDAD INFORMÁTICA EN SERVIDORES NODE JS}
-      \field{year}{2016}
-      \verb{urlraw}
-      \verb http://repository.unipiloto.edu.co/bitstream/handle/20.500.12277/2671/Trabajo%20de%20grado.pdf?sequence=1&isAllowed=y
-      \endverb
-      \verb{url}
-      \verb http://repository.unipiloto.edu.co/bitstream/handle/20.500.12277/2671/Trabajo%20de%20grado.pdf?sequence=1&isAllowed=y
-      \endverb
-    \endentry
-    \entry{JorgeLascorz}{article}{}
-      \name{author}{1}{}{%
-        {{hash=6318e613fe38f54115df12356c20cb54}{%
-           family={Lascorz},
-           familyi={L\bibinitperiod},
-           given={Jorge\bibnamedelima Martínez},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {UNIVERSIDAD POLITÉCNICA DE MADRID}%
-      }
-      \strng{namehash}{6318e613fe38f54115df12356c20cb54}
-      \strng{fullhash}{6318e613fe38f54115df12356c20cb54}
-      \strng{bibnamehash}{6318e613fe38f54115df12356c20cb54}
-      \strng{authorbibnamehash}{6318e613fe38f54115df12356c20cb54}
-      \strng{authornamehash}{6318e613fe38f54115df12356c20cb54}
-      \strng{authorfullhash}{6318e613fe38f54115df12356c20cb54}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Seguridad web con NodeJS en un sistema de gestión de horarios laborales}
-      \field{year}{2017}
-      \verb{urlraw}
-      \verb https://oa.upm.es/48283/8/TFM_JORGE_MARTINEZ_LASCORZ.pdf
-      \endverb
-      \verb{url}
-      \verb https://oa.upm.es/48283/8/TFM_JORGE_MARTINEZ_LASCORZ.pdf
-      \endverb
-    \endentry
-    \entry{DiegoLosada}{article}{}
-      \name{author}{1}{}{%
-        {{hash=18a8e88798e19c4487367925edc5b072}{%
-           family={Regos},
-           familyi={R\bibinitperiod},
-           given={Diego\bibnamedelima Losada},
-           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Universidad Autónoma de Barcelona}%
-      }
-      \strng{namehash}{18a8e88798e19c4487367925edc5b072}
-      \strng{fullhash}{18a8e88798e19c4487367925edc5b072}
-      \strng{bibnamehash}{18a8e88798e19c4487367925edc5b072}
-      \strng{authorbibnamehash}{18a8e88798e19c4487367925edc5b072}
-      \strng{authornamehash}{18a8e88798e19c4487367925edc5b072}
-      \strng{authorfullhash}{18a8e88798e19c4487367925edc5b072}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Seguridad en aplicaciones Web}
-      \field{year}{2015}
-      \verb{urlraw}
-      \verb https://openaccess.uoc.edu/bitstream/10609/42542/6/dlosadarTFM0615Memoria.pdf
-      \endverb
-      \verb{url}
-      \verb https://openaccess.uoc.edu/bitstream/10609/42542/6/dlosadarTFM0615Memoria.pdf
-      \endverb
-    \endentry
-    \entry{AnaSaucedo}{article}{}
+    \entry{Sing}{misc}{}
       \name{author}{2}{}{%
-        {{hash=362c328e201e4517ca8685a84a4209da}{%
-           family={Saucedo},
+        {{hash=546cddab80f8b7a4f1d7d156a8d96bee}{%
+           family={Singh},
            familyi={S\bibinitperiod},
-           given={Ana\bibnamedelimb Laura\bibnamedelima Hernández},
-           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=60bd6928aa0e16de74d58a5e01e011e7}{%
-           family={Miranda},
-           familyi={M\bibinitperiod},
-           given={Jezreel\bibnamedelima Mejia},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+           given={S.\bibnamedelimi P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=7bfb5f985ce0060d1b56c2dc5860b1b8}{%
+           family={Sing},
+           familyi={S\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
       }
-      \list{institution}{1}{%
-        {Centro de Investigación en Matemáticas (CIMAT) Unidad Zacatecas}%
-      }
-      \strng{namehash}{58653835a04cba1c3ef6d5aeaf1014ab}
-      \strng{fullhash}{58653835a04cba1c3ef6d5aeaf1014ab}
-      \strng{bibnamehash}{58653835a04cba1c3ef6d5aeaf1014ab}
-      \strng{authorbibnamehash}{58653835a04cba1c3ef6d5aeaf1014ab}
-      \strng{authornamehash}{58653835a04cba1c3ef6d5aeaf1014ab}
-      \strng{authorfullhash}{58653835a04cba1c3ef6d5aeaf1014ab}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \strng{namehash}{d75e4b3676df47c0f5f7f95873ac70ff}
+      \strng{fullhash}{d75e4b3676df47c0f5f7f95873ac70ff}
+      \strng{bibnamehash}{d75e4b3676df47c0f5f7f95873ac70ff}
+      \strng{authorbibnamehash}{d75e4b3676df47c0f5f7f95873ac70ff}
+      \strng{authornamehash}{d75e4b3676df47c0f5f7f95873ac70ff}
+      \strng{authorfullhash}{d75e4b3676df47c0f5f7f95873ac70ff}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Guía de ataques, vulnerabilidades, técnicas y herramientas para aplicaciones web}
-      \field{year}{Year}
-      \verb{urlraw}
-      \verb https://www.redalyc.org/pdf/5122/512251501005.pdf
-      \endverb
-      \verb{url}
-      \verb https://www.redalyc.org/pdf/5122/512251501005.pdf
-      \endverb
+      \field{howpublished}{Department of Electronics and Communication University of Allahabad}
+      \field{title}{Nonlinear effects in optical fibers: Origin, management and applications}
+      \field{year}{2007}
+      \field{pages}{264}
+      \range{pages}{1}
     \endentry
-    \entry{CarlosSerna}{article}{}
+    \entry{Bansal}{thesis}{}
       \name{author}{1}{}{%
-        {{hash=44db8bde2e62b78997b4ba257eab26c1}{%
-           family={Serna},
-           familyi={S\bibinitperiod},
-           given={Carlos\bibnamedelimb Andrés\bibnamedelima Ortegón},
-           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=ec0fe3b533e720a55eae35b4ca31bb59}{%
+           family={Bansal},
+           familyi={B\bibinitperiod},
+           given={Shonak},
+           giveni={S\bibinitperiod}}}%
       }
-      \list{institution}{1}{%
-        {Universidad Piloto de Colombia}%
+      \list{institution}{2}{%
+        {Electronics}%
+        {Communication Engineering Department, Punjab Engineering College}%
       }
-      \strng{namehash}{44db8bde2e62b78997b4ba257eab26c1}
-      \strng{fullhash}{44db8bde2e62b78997b4ba257eab26c1}
-      \strng{bibnamehash}{44db8bde2e62b78997b4ba257eab26c1}
-      \strng{authorbibnamehash}{44db8bde2e62b78997b4ba257eab26c1}
-      \strng{authornamehash}{44db8bde2e62b78997b4ba257eab26c1}
-      \strng{authorfullhash}{44db8bde2e62b78997b4ba257eab26c1}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \strng{namehash}{ec0fe3b533e720a55eae35b4ca31bb59}
+      \strng{fullhash}{ec0fe3b533e720a55eae35b4ca31bb59}
+      \strng{bibnamehash}{ec0fe3b533e720a55eae35b4ca31bb59}
+      \strng{authorbibnamehash}{ec0fe3b533e720a55eae35b4ca31bb59}
+      \strng{authornamehash}{ec0fe3b533e720a55eae35b4ca31bb59}
+      \strng{authorfullhash}{ec0fe3b533e720a55eae35b4ca31bb59}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{AMENAZAS, VULNERABILIDADES, FACTORES DE RIESGO Y DEFENSA EN PROFUNDIDAD EN APLICACIONES WEB}
-      \field{year}{2016}
-      \verb{urlraw}
-      \verb http://repository.unipiloto.edu.co/bitstream/handle/20.500.12277/4913/00005093.pdf?sequence=1&isAllowed=y
-      \endverb
-      \verb{url}
-      \verb http://repository.unipiloto.edu.co/bitstream/handle/20.500.12277/4913/00005093.pdf?sequence=1&isAllowed=y
-      \endverb
-    \endentry
-    \entry{AlexZambrano}{article}{}
-      \name{author}{4}{}{%
-        {{hash=6faa6b4a8ae8fea570cd79fbed75adf6}{%
-           family={Zambrano},
-           familyi={Z\bibinitperiod},
-           given={Alex},
-           giveni={A\bibinitperiod}}}%
-        {{hash=f4b63c7a64677175435d6c3d27f31c65}{%
-           family={Guarda},
-           familyi={G\bibinitperiod},
-           given={Teresa},
-           giveni={T\bibinitperiod}}}%
-        {{hash=3378f8def0ea020917cfbc87b2d9de7c}{%
-           family={Valenzuela},
-           familyi={V\bibinitperiod},
-           given={Edward\bibnamedelimb Vladimir\bibnamedelima Haro},
-           giveni={E\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=9e682d5f69aaf776b0e62ea70140b388}{%
-           family={Quiña},
-           familyi={Q\bibinitperiod},
-           given={Geovanni\bibnamedelima Ninahualpa},
-           giveni={G\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Universidad de las Fuerzas Armadas ESPE, Universidad Estatal Península de Santa Elena, Santa Elena, Ecuador – UPSE, Algoritmi Centre, Minho University, Guimarães, Portugal}%
-      }
-      \strng{namehash}{bb1eb081d93160771d17770f3a131b70}
-      \strng{fullhash}{342011cc5c0f2ee75d99a359fe2abc68}
-      \strng{bibnamehash}{bb1eb081d93160771d17770f3a131b70}
-      \strng{authorbibnamehash}{bb1eb081d93160771d17770f3a131b70}
-      \strng{authornamehash}{bb1eb081d93160771d17770f3a131b70}
-      \strng{authorfullhash}{342011cc5c0f2ee75d99a359fe2abc68}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Técnicas de mitigación para principales vulnerabilidades de seguridad en aplicaciones web}
-      \field{year}{2018}
-      \verb{urlraw}
-      \verb https://www.researchgate.net/profile/Teresa-Guarda/publication/331178479_Mitigation_techniques_for_security_vulnerabilities_in_web_applications/links/5fabe891a6fdcc331b9478b4/Mitigation-techniques-for-security-vulnerabilities-in-web-applications.pdf
-      \endverb
-      \verb{url}
-      \verb https://www.researchgate.net/profile/Teresa-Guarda/publication/331178479_Mitigation_techniques_for_security_vulnerabilities_in_web_applications/links/5fabe891a6fdcc331b9478b4/Mitigation-techniques-for-security-vulnerabilities-in-web-applications.pdf
-      \endverb
+      \field{title}{A Comparative Study of Nature-Inspired Metaheuristic Algorithms in Search of Near-to-optimal Golomb Rulers for the FWM Crosstalk Elimination in WDM Systems}
+      \field{year}{2019}
     \endentry
   \enddatalist
 \endrefsection

@@ -9,23 +9,64 @@
 
 
 \justify %%justificar los párrafos
-
 \vfill %espaciar los párrafos
 
-%---revisar articulo 20, en lista primera búsqueda
 
-En los últimos años ha tenido lugar un crecimiento del uso de las \gls{tic}. Esto ha provocado un gran incremento en el interés de las empresas por estar online y prestar sus servicios a través de plataformas digitales, actualizando sus herramientas de trabajo y digitalizando al máximo sus medios de producción. Este proceso de digitalización se ha visto potenciado por la proliferación de los servicios de almacenamiento y gestión en la nube, así como por la proliferación de dispositivos móviles inteligentes de bajo coste \cite{PedroRuiz}. 
+El avance tecnológico en las comunicaciones ópticas ha permitido la transmisión de grandes cantidades de información a través de redes de fibra óptica. Estas redes, pese a sus numerosas ventajas, enfrentan desafíos significativos derivados de fenómenos no lineales. Debido a que, a medida que la señal óptica se propaga por la fibra, hay una interacción entre la luz y el material de la fibra. Estos efectos no lineales son especialmente relevantes en los sistemas de Multiplexación por División de Longitud de Onda (WDM, \textit{Wavelength Division Multiplexing}), donde múltiples canales de diferentes longitudes de onda se transmiten simultáneamente con poca separación entre ellos. Uno de los factores críticos es la intensidad óptica, puesto que, a medida que esta aumenta, los efectos no lineales se vuelven más pronunciados. La alta intensidad óptica generada por la propagación simultánea de numerosos canales de alta potencia en la fibra puede desencadenar en distintos fenómenos críticos que afectan la comunicación óptica. \cite{Toulouse} \cite{Sing}.
 
-Por esta razón, es importante abordar el tema de la seguridad, ya que la sociedad actual usa un gran número de aplicaciones, desde la banca en línea y aplicaciones de trabajo remoto hasta el entretenimiento personal y el comercio electrónico. Es por esto que, las aplicaciones se convierten el objetivo principal de los atacantes, que se aprovechan de las vulnerabilidades como los fallos de diseño, así como de las debilidades de las API, el código abierto, los widgets de terceros y el control de acceso, buscando acceder a bases de datos, servidores y otros datos sensibles. Si se logra la exposición de datos sensibles, es posible lanzar ataques de referencia u otras formas de fraude en línea.
+Dentro de estos efectos no lineales, se tiene el caso de la Mezcla de Cuatro Ondas (FWM, \textit{Four Wave Mixing}), el cual es un efecto óptico no lineal de tercer orden, que ocurre cuando dos o más señales ópticas de frecuencias centrales diferentes que se propagan en una misma fibra, que generan una mezcla entre ellas y generando nuevas componentes de frecuencia en la señal óptica o nuevas longitudes de onda, llamadas harmónicos, que tienen una frecuencia igual a la suma o la diferencia de las frecuencias de las ondas originales. Por esta razón, la FWM es el mayor efecto de ruido en sistemas WDM que emplean Asignación de Canales Igualmente Espaciados (ECS, \textit{Equal Channel Spacing}), ya que, dos o más longitudes de onda (o frecuencias) se combinan y producen varios productos de mezcla \cite{Bansal}. En las redes redes de multiplexación por longitud de onda pasiva reconfigurable (MLR-PON, \textit{Multi-Level Resilience Passive Optical Network}), la FWM puede ser particularmente problemática, debido a que, las señales de los diferentes usuarios se superponen en el mismo espacio.
 
-Los atacantes digitales tienen la ventaja de contar con el  alcance y anonimato de quien los propicia, por lo que significa un gran reto para cualquier organización. Como prácticas de seguridad habituales se tiene el cambio de contraseñas, prohibir acceso a dispositivos y hacer una constante actualización de software. Pero esto no implica que la seguridad de las aplicaciones sea un factor que siempre se considere, siendo así un elemento por lo general ignorado y vulnerable. Esto genera una alta probabilidad de enfrentarse a amenazas que se generan por fallos del sistema a raíz de una inadecuada codificación, servidores mal configurados y un mal diseño en la aplicación.
+En la búsqueda de soluciones para reducir los efectos no lineales, como la FWM en sistemas ópticos WDM, se han propuesto diferentes enfoques, entre ellos, algoritmos de Asignación de Canales Desigualmente Espaciados (USCA, \textit{Unequally Spaced Channel Assignment}). Estos algoritmos han demostrado ser prometedores en la supresión de la diafonía generada por las señales FWM. 
+
+Para contrarrestar el efecto de la FWM, es esencial una asignación eficiente de canales en la fibra óptica. Aquí es donde las reglas de Golomb entran en juego. Estas reglas, desarrolladas originalmente en el contexto de la teoría de números, definen conjuntos de números enteros con la particularidad de que todas las sumas o diferencias de dos elementos son distintas. Este principio resulta de especial interés para la asignación de canales, puesto que, al garantizar distancias distintas entre las frecuencias, se puede mitigar el efecto de la FWM.
+
+Sin embargo, el uso de reglas de Golomb para la asignación de canales no es trivial. El proceso de búsqueda y definición de estas reglas es computacionalmente desafiante, y la tarea se torna aún más compleja a medida que se buscan conjuntos de mayor tamaño.
+
+Con ello, surge la necesidad de proponer un mecanismo dinámico que, aprovechando las propiedades matemáticas de las reglas de Golomb, permita contrarrestar el efecto de la FWM en redes MLR-PON de manera eficiente y adaptable a diferentes condiciones y requerimientos de la red.
+
+Para los canales WDM uniformemente espaciados, los términos del producto FWM generados caen sobre otros canales activos en la banda, lo que provoca una diafonía entre canales. El rendimiento puede mejorarse sustancialmente si se evita la generación de diafonía FWM en las frecuencias del canal. Es por esto que si la separación de frecuencia de cualquier par de canales de un sistema WDM óptico es diferente de la de cualquier otro par de canales, no se generarán señales de diafonía FWM en ninguna de las frecuencias del canal \cite{Bansal}. Por lo tanto, la supresión de la FWM puede tener implicaciones prácticas significativas en los sistemas WDM. Por ejemplo, una reducción en la interferencia de FWM puede permitir el uso de canales más densamente espaciados en el espectro óptico, lo que aumenta la capacidad del sistema. Además, la supresión de la FWM puede mejorar la calidad de la señal, reducir la tasa de errores de bit y aumentar la distancia de transmisión.
 
 
-Este trabajo de grado se va a desarrollar para la empresa WIZIT MIND BLOWING SOLUTIONS S.A.S, la cual es una empresa que se especializa en crear soluciones tecnológicas a la medida para sus clientes. El portafolio de servicios que ofrece, se encuentran soluciones en desarrollo de software, ciencia de datos, servicios en la nube, consultoría digital, entre otras líneas de negocio. Dentro de las soluciones que tienen una relación con plataformas tecnológicas, digitalización de procesos y software que está en la web, se utiliza entre otras tecnologías Node.js, que es una plataforma de desarrollo muy popular para aplicaciones web, y con su creciente adopción, la seguridad de las aplicaciones desarrolladas en Node.js se ha convertido en una preocupación crítica. 
+Teniendo en cuenta los aspectos anteriores, se propone el diseño de un algoritmo soportado en la asignación de canales con espaciado desigual para contrarestar la diafonía FWM en una red óptica.
 
 
-Con lo mencionado anteriormente, este trabajo tiene como propósito la definición de un esquema/proceso replicable para la validación de pre-requisitos técnicos puede ayudar a minimizar la presencia de vulnerabilidades en estas aplicaciones, permitiendo un análisis de las vulnerabilidades comunes en aplicaciones desarrolladas con Node.js y la identificación de los pre-requisitos técnicos necesarios para prevenirlas. También implica la definición de un proceso replicable para validar la presencia de estos pre-requisitos técnicos en las plataformas de la empresa.
+%%% ---------------------------------------------- %%%
+%%%%%%  plantear la pregunta de investigación 
+En este contexto, se plantea la siguiente pregunta de investigación:
+
+¿Es posible contrarrestar los efectos de la FWM utilizando un mecanismo dinámico basado en la asignación desigual de canales?
+%¿Es posible contra restar los efectos de la FWM utilizando un algoritmo basado en regla g-golomb?
 
 
 
 %%norma iso27001 -> https://www.iso.org/standard/27001
+
+\begin{center}
+    \item  \section{OBJETIVOS}
+\end{center}
+
+\subsection{Objetivo general}
+%%OBJETIVO GENERAL: Plantar en el objetivo general que la propuesta se va a orientar en la identificación y mitigación de vulnerabilidades de seguridad en aplicaciones que pueden ser construidas con node.js y el framework express.
+
+Proponer un mecanismo dinámico con enfoque en la asignación de canales desigualmente espaciados para contrarrestar los efectos de la mezcla de cuatro ondas en una arquitectura de red MLR-PON.
+
+%Definir un proceso replicable para la validación de pre-requisitos técnicos que minimicen la presencia de vulnerabilidades en plataformas desarrolladas en la empresa WIZIT MIND BLOWING SOLUTIONS S.A.S con Node.js y el framework express.
+
+\subsection{Objetivos específicos}
+\begin{itemize}
+    
+    \item Diseñar a nivel de simulación y en un ambiente controlado una arquitectura de red MLR-PON.
+
+    %incluir algo relacionado con el echo de inlcuir algoritmos matemáticos 
+    \item Definir un algoritmo matemático basado en un mecanismo dinámico para contrarrestar los efectos de la mezcla de cuatro ondas.
+    %Definir un algoritmo matemático para contrarrestar los efectos de la mezcla de cuatro ondas.
+    %Proponer un algoritmo para contrarrestar los efectos de la mezcla de cuatro ondas.
+
+    %Analizar comparativamente el efecto de la implementación del algoritmo.
+    \item Analizar comparativamente el efecto de la inclusión del mecanismo propuesto.
+\end{itemize}
+
+\begin{center}
+    \item  \section{METODOLOGÍA}
+\end{center}
+Con respecto a la metodología, se ha decidido utilizar la metodología en cascada, la cual es un enfoque secuencial que permite dividir el proyecto en fases bien definidas. Cada fase debe ser completada antes de avanzar a la siguiente, siguiendo un flujo de trabajo lineal. Aunque esta metodología es ampliamente utilizada en el desarrollo de software, también puede ser aplicada a otros tipos de proyectos.

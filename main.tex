@@ -19,7 +19,12 @@
 \usepackage{longtable}
 \usepackage{pdfpages}
 \usepackage[spanish]{babel}
-\usepackage{biblatex}
+% \usepackage{biblatex}
+\usepackage[
+    backend=biber,
+    style=ieee,
+    sorting=none
+]{biblatex}
 \usepackage{csquotes}
 \usepackage[acronym]{glossaries}
 \makeglossaries
@@ -37,16 +42,9 @@
 \graphicspath{{img/}}
 \addbibresource{bibliography.bib}
 
-\definecolor{groupblue}{RGB}{51, 153, 255}
-% Define the barblue color
-\definecolor{barblue}{RGB}{0, 64, 128}
-\definecolor{linkred}{RGB}{165,0,33}
 
 %%Color para las tablas
 %%\usepackage[table]{xcolor}% http://ctan.org/pkg/xcolor
-
-%%--USAR ARCHIVO .BIB
-%\usepackage{chicago}
 
 
 \title{Monografía}
@@ -91,14 +89,16 @@
 
     \input{lib/1cap}
     \input{lib/2cap}
-    \input{lib/3objetivos}
-    \input{lib/4actividades}
-    \input{lib/5recursos}
-    \input{lib/6condiciones}
-    \printbibliography[title={Bibliografía}]
-    %\input{lib/7referencias}
-    %\bibliographystyle{chicago}
-    %\bibliography{biografia}
-    \input{lib/8actain}
-    %\input{9anexos}
+    \input{lib/3cap}
+    \input{lib/4cap}
+
+    
+    \newpage
+    \begin{center}
+        \section{REFERENCIAS}
+        % \addcontentsline{toc}{section}{Referencias} % Agrega "Referencias" al índice
+    \end{center}
+    \printbibliography[title={}] % sin un título
+    \renewcommand*{\UrlFont}{\rmfamily}
+
 \end{document}

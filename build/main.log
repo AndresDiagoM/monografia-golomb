@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.6)  20 NOV 2023 17:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.6)  28 NOV 2023 19:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/felip/OneDrive/Documentos/Unicauca/PRACTICA - TBBC/Monografia-TBBC/main.tex"
-(c:/Users/felip/OneDrive/Documentos/Unicauca/PRACTICA - TBBC/Monografia-TBBC/main.tex
+**c:/Users/felip/OneDrive/Documentos/Unicauca/TESIS/Monografia-golomb/main.tex
+(c:/Users/felip/OneDrive/Documentos/Unicauca/TESIS/Monografia-golomb/main.tex
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
 (C:\Program Files\MiKTeX\tex/latex/base\book.cls
@@ -431,6 +431,8 @@ Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Program Files\MiKTeX\tex/latex/biblatex\blx-dm.def
 File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count344
@@ -538,6 +540,14 @@ File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 \biburllcskip=\muskip20
 \c@smartand=\count420
 )
+Package biblatex Info: Trying to load bibliography style 'ieee'...
+Package biblatex Info: ... file 'ieee.bbx' found.
+ (C:\Program Files\MiKTeX\tex/latex/biblatex-ieee\ieee.bbx
+File: ieee.bbx 2021/12/06 v1.3f biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+ (C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\numeric-comp.bbx
+File: numeric-comp.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
  (C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
@@ -548,11 +558,19 @@ Package biblatex Info: ... file 'standard.bbx' found.
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count421
 \c@bbx:relatedtotal=\count422
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
- (C:\Program Files\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
-File: numeric.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+))))
+Package biblatex Info: Trying to load citation style 'ieee'...
+Package biblatex Info: ... file 'ieee.cbx' found.
+ (C:\Program Files\MiKTeX\tex/latex/biblatex-ieee\ieee.cbx
+File: ieee.cbx 2021/12/06 v1.3f biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+ (C:\Program Files\MiKTeX\tex/latex/biblatex/cbx\numeric-comp.cbx
+File: numeric-comp.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count423
+\c@cbx@tempcntb=\count424
+\c@cbx@tempcntc=\count425
+\c@cbx@tempcntd=\count426
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -565,6 +583,10 @@ Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\smartcites'.
 )
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\cites'.
+)
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
  (C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.cfg
@@ -576,7 +598,7 @@ Package biblatex Info: Document encoding is UTF8 ....
 Package: expl3 2023-11-01 L3 programming layer (loader) 
  (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-10-23 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count423
+\l__color_backend_stack_int=\count427
 \l__pdf_internal_box=\box62
 ))
 Package biblatex Info: ... and expl3
@@ -589,12 +611,12 @@ Package: xparse 2023-10-10 L3 Experimental document command parser
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 )) (C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
-\csq@reset=\count424
-\csq@gtype=\count425
-\csq@glevel=\count426
-\csq@qlevel=\count427
-\csq@maxlvl=\count428
-\csq@tshold=\count429
+\csq@reset=\count428
+\csq@gtype=\count429
+\csq@glevel=\count430
+\csq@qlevel=\count431
+\csq@maxlvl=\count432
+\csq@tshold=\count433
 \csq@ltx@everypar=\toks31
  (C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
@@ -611,7 +633,7 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks32
 \XKV@tempa@toks=\toks33
 )
-\XKV@depth=\count430
+\XKV@depth=\count434
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (C:\Program Files\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
 Package: mfirstuc 2022/10/14 v2.08 (NLCT)
@@ -638,14 +660,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count431
+\inf@bad=\count435
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count432
-\leftroot@=\count433
+\uproot@=\count436
+\leftroot@=\count437
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count434
-\DOTSCASE@=\count435
+\classnum@=\count438
+\DOTSCASE@=\count439
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -658,20 +680,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen184
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count436
+\macc@depth=\count440
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count437
+\c@MaxMatrixCols=\count441
 \dotsspace@=\muskip21
-\c@parentequation=\count438
-\dspbrk@lvl=\count439
+\c@parentequation=\count442
+\dspbrk@lvl=\count443
 \tag@help=\toks37
-\row@=\count440
-\column@=\count441
-\maxfields@=\count442
+\row@=\count444
+\column@=\count445
+\maxfields@=\count446
 \andhelp@=\toks38
 \eqnshift@=\dimen185
 \alignsep@=\dimen186
@@ -687,25 +709,25 @@ LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 ) (C:\Program Files\MiKTeX\tex/latex/substr\substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count443
+\c@su@anzahl=\count447
 ) (C:\Program Files\MiKTeX\tex/latex/datatool\datatool-fp.sty
 Package: datatool-fp 2019/09/27 v2.32 (NLCT)
  (C:\Program Files\MiKTeX\tex/latex/fp\fp.sty
 Package: fp 1995/04/02
  `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (C:\Program Files\MiKTeX\tex/latex/fp\defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count444
+\actioncount=\count448
 ) (C:\Program Files\MiKTeX\tex/latex/fp\fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count445
-\FP@xia=\count446
-\FP@xib=\count447
-\FP@xfa=\count448
-\FP@xfb=\count449
-\FP@rega=\count450
-\FP@regb=\count451
-\FP@regs=\count452
-\FP@times=\count453
+\FP@xs=\count449
+\FP@xia=\count450
+\FP@xib=\count451
+\FP@xfa=\count452
+\FP@xfb=\count453
+\FP@rega=\count454
+\FP@regb=\count455
+\FP@regs=\count456
+\FP@times=\count457
 ) (C:\Program Files\MiKTeX\tex/latex/fp\fp-addons.sty
 Package: fp-addons 1995/03/15
 ) (C:\Program Files\MiKTeX\tex/latex/fp\fp-snap.sty
@@ -718,7 +740,7 @@ Package: fp-trigo 1995/04/14
 Package: fp-pas 1994/08/29
 ) (C:\Program Files\MiKTeX\tex/latex/fp\fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count454
+\FPseed=\count458
 ) (C:\Program Files\MiKTeX\tex/latex/fp\fp-eqn.sty
 Package: fp-eqn 1995/04/03
 ) (C:\Program Files\MiKTeX\tex/latex/fp\fp-upn.sty
@@ -727,14 +749,14 @@ Package: fp-upn 1996/10/21
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks41
-\@dtl@tmpcount=\count455
+\@dtl@tmpcount=\count459
 \dtl@tmplength=\skip102
-\dtl@sortresult=\count456
-\@dtl@numgrpsepcount=\count457
-\@dtl@datatype=\count458
-\dtl@codeA=\count459
-\dtl@codeB=\count460
-\@dtl@foreach@level=\count461
+\dtl@sortresult=\count460
+\@dtl@numgrpsepcount=\count461
+\@dtl@datatype=\count462
+\dtl@codeA=\count463
+\dtl@codeB=\count464
+\@dtl@foreach@level=\count465
 ) (C:\Program Files\MiKTeX\tex/latex/tracklang\tracklang.sty
 Package: tracklang 2022/12/13 v1.6.1 (NLCT) Track Languages
  (C:\Program Files\MiKTeX\tex/generic/tracklang\tracklang.tex)) (C:\Program Files\MiKTeX\tex/latex/translator\translator.sty
@@ -744,7 +766,7 @@ File: glossaries-english.ldf 2014/11/23 v1.0
 ) (C:\Program Files\MiKTeX\tex/latex/glossaries-spanish\glossaries-spanish.ldf
 File: glossaries-spanish.ldf 2014/11/23 v1.0
  (C:\Program Files\MiKTeX\tex/latex/glossaries-spanish\glossaries-spanish-utf8.ldf))
-\gls@level=\count462
+\gls@level=\count466
 \@gls@tmpb=\toks42
 \gls@tmplen=\skip103
 \glskeylisttok=\toks43
@@ -764,7 +786,7 @@ Package: glossary-long 2023/09/29 v4.53 (NLCT)
 Package: glossary-super 2023/09/29 v4.53 (NLCT)
  (C:\Program Files\MiKTeX\tex/latex/supertabular\supertabular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
-\c@tracingst=\count463
+\c@tracingst=\count467
 \ST@wd=\dimen191
 \ST@rightskip=\skip107
 \ST@leftskip=\skip108
@@ -787,11 +809,11 @@ Package: glossary-tree 2023/09/29 v4.53 (NLCT)
 \glo@main@file=\write6
 \openout6 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 25.
+Package glossaries Info: Writing glossary file main.glo on input line 30.
 \glo@acronym@file=\write7
 \openout7 = `main.acn'.
 
-Package glossaries Info: Writing glossary file main.acn on input line 25.
+Package glossaries Info: Writing glossary file main.acn on input line 30.
  (C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 ) (C:\Program Files\MiKTeX\tex/latex/pgfgantt\pgfgantt.sty
@@ -826,14 +848,14 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yd=\dimen268
 \w@pgf@writea=\write8
 \r@pgf@reada=\read4
-\c@pgf@counta=\count464
-\c@pgf@countb=\count465
-\c@pgf@countc=\count466
-\c@pgf@countd=\count467
+\c@pgf@counta=\count468
+\c@pgf@countb=\count469
+\c@pgf@countc=\count470
+\c@pgf@countd=\count471
 \t@pgf@toka=\toks51
 \t@pgf@tokb=\toks52
 \t@pgf@tokc=\toks53
-\pgf@sys@id@count=\count468
+\pgf@sys@id@count=\count472
  (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -844,21 +866,21 @@ File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 ))) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count469
-\pgfsyssoftpath@bigbuffer@items=\count470
+\pgfsyssoftpath@smallbuffer@items=\count473
+\pgfsyssoftpath@bigbuffer@items=\count474
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen269
-\pgfmath@count=\count471
+\pgfmath@count=\count475
 \pgfmath@box=\box67
 \pgfmath@toks=\toks54
 \pgfmath@stack@operand=\toks55
 \pgfmath@stack@operation=\toks56
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count472
+\c@pgfmathroundto@lastzeros=\count476
 )) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen270
@@ -888,7 +910,7 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box68
 \pgf@hbox=\box69
 \pgf@layerbox@main=\box70
-\pgf@picture@serial@count=\count473
+\pgf@picture@serial@count=\count477
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen288
@@ -909,8 +931,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen293
-\pgf@sys@shading@range@num=\count474
-\pgf@shadingcount=\count475
+\pgf@sys@shading@range@num=\count478
+\pgf@shadingcount=\count479
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
@@ -945,7 +967,7 @@ Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count476
+\pgf@plot@mark@count=\count480
 \pgfplotmarksize=\dimen298
 )
 \tikz@lastx=\dimen299
@@ -960,17 +982,17 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box74
 \tikz@tempbox=\box75
 \tikz@tempbox@bg=\box76
-\tikztreelevel=\count477
-\tikznumberofchildren=\count478
-\tikznumberofcurrentchild=\count479
-\tikz@fig@count=\count480
+\tikztreelevel=\count481
+\tikznumberofchildren=\count482
+\tikznumberofcurrentchild=\count483
+\tikz@fig@count=\count484
  (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count481
-\pgfmatrixcurrentcolumn=\count482
-\pgf@matrix@numberofcolumns=\count483
+\pgfmatrixcurrentrow=\count485
+\pgfmatrixcurrentcolumn=\count486
+\pgf@matrix@numberofcolumns=\count487
 )
-\tikz@expandcount=\count484
+\tikz@expandcount=\count488
  (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryarrows.code.tex
@@ -996,66 +1018,66 @@ File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfcalendar.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfcalendar.code.tex
 File: pgfcalendar.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfcalendarcurrentjulian=\count485
-\pgf@cal@easter@Y=\count486
-\pgf@cal@easter@G=\count487
-\pgf@cal@easter@C=\count488
-\pgf@cal@easter@X=\count489
-\pgf@cal@easter@Z=\count490
-\pgf@cal@easter@D=\count491
-\pgf@cal@easter@E=\count492
-\pgf@cal@easter@N=\count493
-\pgf@cal@easter@M=\count494
-\pgf@cal@easter@julianday=\count495
+\pgfcalendarcurrentjulian=\count489
+\pgf@cal@easter@Y=\count490
+\pgf@cal@easter@G=\count491
+\pgf@cal@easter@C=\count492
+\pgf@cal@easter@X=\count493
+\pgf@cal@easter@Z=\count494
+\pgf@cal@easter@D=\count495
+\pgf@cal@easter@E=\count496
+\pgf@cal@easter@N=\count497
+\pgf@cal@easter@M=\count498
+\pgf@cal@easter@julianday=\count499
 ))
-\gtt@currentline=\count496
-\gtt@lasttitleline=\count497
-\gtt@currgrid=\count498
-\gtt@chartwidth=\count499
-\gtt@lasttitleslot=\count500
-\gtt@elementid=\count501
-\gtt@today@slot=\count502
-\gtt@startjulian=\count503
-\gtt@endjulian=\count504
-\gtt@chartid=\count505
-\gtt@vrule@slot=\count506
-\gtt@calendar@slots=\count507
-\gtt@calendar@weeknumber=\count508
-\gtt@calendar@startofweek=\count509
-\gtt@left@slot=\count510
-\gtt@right@slot=\count511
+\gtt@currentline=\count500
+\gtt@lasttitleline=\count501
+\gtt@currgrid=\count502
+\gtt@chartwidth=\count503
+\gtt@lasttitleslot=\count504
+\gtt@elementid=\count505
+\gtt@today@slot=\count506
+\gtt@startjulian=\count507
+\gtt@endjulian=\count508
+\gtt@chartid=\count509
+\gtt@vrule@slot=\count510
+\gtt@calendar@slots=\count511
+\gtt@calendar@weeknumber=\count512
+\gtt@calendar@startofweek=\count513
+\gtt@left@slot=\count514
+\gtt@right@slot=\count515
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 57.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 55.
  (C:\Program Files\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
-) (c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.aux
+) (c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.aux
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1091,21 +1113,21 @@ LaTeX Font Info:    ... okay on input line 57.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 57.
-LaTeX Info: Redefining \% on input line 57.
-Package ragged2e Info: ABD: executing \RaggedRight on input line 57.
+LaTeX Info: Redefining \. on input line 55.
+LaTeX Info: Redefining \% on input line 55.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 55.
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count512
+\scratchcounter=\count516
 \scratchdimen=\dimen308
 \scratchbox=\box79
-\nofMPsegments=\count513
-\nofMParguments=\count514
+\nofMPsegments=\count517
+\nofMParguments=\count518
 \everyMPshowfont=\toks59
-\MPscratchCnt=\count515
+\MPscratchCnt=\count519
 \MPscratchDim=\dimen309
-\MPnumerator=\count516
-\makeMPintoPDFobject=\count517
+\MPnumerator=\count520
+\makeMPintoPDFobject=\count521
 \everyMPtoPDFconversion=\toks60
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1113,8 +1135,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 57.
- (c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.out) (c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.out)
+Package hyperref Info: Link coloring OFF on input line 55.
+ (c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.out) (c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.out)
 \@outlinefile=\write9
 \openout9 = `main.out'.
 
@@ -1141,10 +1163,10 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.bbl)
-Package biblatex Info: Reference section=0 on input line 57.
-Package biblatex Info: Reference segment=0 on input line 57.
- (c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.glsdefs) (C:\Program Files\MiKTeX\tex/latex/glossaries-english\glossaries-dictionary-English.dict
+ (c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.bbl)
+Package biblatex Info: Reference section=0 on input line 55.
+Package biblatex Info: Reference segment=0 on input line 55.
+ (c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.glsdefs) (C:\Program Files\MiKTeX\tex/latex/glossaries-english\glossaries-dictionary-English.dict
 Dictionary: glossaries-dictionary, Language: English 
 ) (C:\Program Files\MiKTeX\tex/latex/glossaries-spanish\glossaries-dictionary-Spanish.dict
 Dictionary: glossaries-dictionary, Language: Spanish 
@@ -1153,7 +1175,7 @@ Dictionary: translator-months-dictionary, Language: English
 ) (C:\Program Files\MiKTeX\tex/latex/translator\translator-months-dictionary-Spanish.dict
 Dictionary: translator-months-dictionary, Language: Spanish 
 ) (lib/0-portada.tex
-<img/logo-unicauca.png, id=62, 222.8325pt x 227.85126pt>
+<img/logo-unicauca.png, id=50, 222.8325pt x 227.85126pt>
 File: img/logo-unicauca.png Graphic file (type png)
 <use img/logo-unicauca.png>
 Package pdftex.def Info: img/logo-unicauca.png  used on input line 5.
@@ -1164,7 +1186,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 
 \openout5 = `main.ist'.
 
-{C:/Users/felip/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc} <./img/logo-unicauca.png>] (c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.toc
+{C:/Users/felip/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc} <./img/logo-unicauca.png>] (c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.toc
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1176,10 +1198,10 @@ LaTeX Info: Redefining \% on input line 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.71     \cleardoublepage
+l.69     \cleardoublepage
                           [2
 
-] (c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.lot
+] (c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.lot
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1191,11 +1213,11 @@ LaTeX Info: Redefining \% on input line 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.75     \cleardoublepage
+l.73     \cleardoublepage
                           [3
 
 
-] (c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.lof
+] (c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.lof
 LaTeX Info: Redefining \sptext on input line 1.
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -1207,7 +1229,7 @@ LaTeX Info: Redefining \% on input line 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.80     \cleardoublepage
+l.78     \cleardoublepage
                           [4
 
 
@@ -1216,160 +1238,59 @@ l.80     \cleardoublepage
 \openout13 = `main.glsdefs'.
 
 )
-LaTeX Info: Redefining \. on input line 84.
-LaTeX Info: Redefining \% on input line 84.
+LaTeX Info: Redefining \. on input line 82.
+LaTeX Info: Redefining \% on input line 82.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.84     \cleardoublepage
+l.82     \cleardoublepage
                           [5
 
 ]
 No file main.acr.
-LaTeX Info: Redefining \. on input line 88.
-LaTeX Info: Redefining \% on input line 88.
+LaTeX Info: Redefining \. on input line 86.
+LaTeX Info: Redefining \% on input line 86.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.88     \newpage
+l.86     \newpage
                   [6
 
 ] (lib/1cap.tex
 Cap\'{\i }tulo 1.
 [1
 
-]) (lib/2cap.tex
+]
+LaTeX Info: Redefining \. on input line 61.
+LaTeX Info: Redefining \% on input line 61.
+ [2]) (lib/2cap.tex
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
- [2]
+ [3]
 Cap\'{\i }tulo 2.
-[3
+) (lib/3cap.tex [4
 
 ]
-LaTeX Info: Redefining \. on input line 31.
-LaTeX Info: Redefining \% on input line 31.
- [4]
-Overfull \hbox (3.41997pt too wide) in paragraph at lines 37--38
- []\T1/phv/b/n/12 AMENAZAS, VUL-NE-RA-BI-LI-DA-DES, FAC-TO-RES DE RIES-GO Y DE-FEN-SA EN PRO-
- []
+Cap\'{\i }tulo 3.
+) (lib/4cap.tex [5
 
-LaTeX Info: Redefining \. on input line 53.
-LaTeX Info: Redefining \% on input line 53.
-[5]) (lib/3objetivos.tex) (lib/4actividades.tex
-Overfull \hbox (7.932pt too wide) in alignment at lines 9--14
- [] [] [] 
- []
+]
+Cap\'{\i }tulo 4.
+) [6
 
-
-Overfull \hbox (7.932pt too wide) in alignment at lines 14--20
- [] [] [] 
- []
-
-
-Overfull \hbox (7.932pt too wide) in alignment at lines 20--23
- [] [] [] 
- []
-
-
-Overfull \hbox (7.932pt too wide) in alignment at lines 23--25
- [] [] [] 
- []
-
-
-Underfull \hbox (badness 1354) in paragraph at lines 49--50
-\T1/phv/m/n/12 15. Pre-pa-ra-ción y rea-li-za-ción de la 
- []
-
-
-Overfull \hbox (7.932pt too wide) in alignment at lines 25--51
- [] [] [] 
- []
-
-LaTeX Info: Redefining \. on input line 51.
-LaTeX Info: Redefining \% on input line 51.
-[6]
-LaTeX Info: Redefining \. on input line 51.
-LaTeX Info: Redefining \% on input line 51.
+]
+LaTeX Info: Redefining \. on input line 101.
+LaTeX Info: Redefining \% on input line 101.
  [7]
-LaTeX Info: Redefining \. on input line 54.
-LaTeX Info: Redefining \% on input line 54.
- [8]
-<img/Actividades - cronograma.pdf, id=169, 1194.4625pt x 881.2925pt>
-File: img/Actividades - cronograma.pdf Graphic file (type pdf)
-<use img/Actividades - cronograma.pdf>
-Package pdftex.def Info: img/Actividades - cronograma.pdf  used on input line 55.
-(pdftex.def)             Requested size: 1194.45958pt x 881.29034pt.
-File: img/Actividades - cronograma.pdf Graphic file (type pdf)
-<use img/Actividades - cronograma.pdf>
-Package pdftex.def Info: img/Actividades - cronograma.pdf  used on input line 55.
-(pdftex.def)             Requested size: 1194.45958pt x 881.29034pt.
-<img/Actividades - cronograma.pdf, id=172, page=1, 1194.4625pt x 881.2925pt>
-File: img/Actividades - cronograma.pdf Graphic file (type pdf)
-<use img/Actividades - cronograma.pdf, page 1>
-Package pdftex.def Info: img/Actividades - cronograma.pdf , page1 used on input line 55.
-(pdftex.def)             Requested size: 1194.45958pt x 881.29034pt.
-File: img/Actividades - cronograma.pdf Graphic file (type pdf)
-<use img/Actividades - cronograma.pdf, page 1>
-Package pdftex.def Info: img/Actividades - cronograma.pdf , page1 used on input line 55.
-(pdftex.def)             Requested size: 1015.29793pt x 749.10216pt.
-File: img/Actividades - cronograma.pdf Graphic file (type pdf)
-<use img/Actividades - cronograma.pdf, page 1>
-Package pdftex.def Info: img/Actividades - cronograma.pdf , page1 used on input line 55.
-(pdftex.def)             Requested size: 1015.29793pt x 749.10216pt.
-File: img/Actividades - cronograma.pdf Graphic file (type pdf)
-<use img/Actividades - cronograma.pdf, page 1>
-Package pdftex.def Info: img/Actividades - cronograma.pdf , page1 used on input line 55.
-(pdftex.def)             Requested size: 1015.29793pt x 749.10216pt.
-LaTeX Info: Redefining \. on input line 55.
-LaTeX Info: Redefining \% on input line 55.
-File: img/Actividades - cronograma.pdf Graphic file (type pdf)
-<use img/Actividades - cronograma.pdf, page 1>
-Package pdftex.def Info: img/Actividades - cronograma.pdf , page1 used on input line 55.
-(pdftex.def)             Requested size: 1015.29793pt x 749.10216pt.
- [9
-
- <./img/Actividades - cronograma.pdf>]) (lib/5recursos.tex) (lib/6condiciones.tex
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [10
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{table.2.2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.1 \newpage
-            ])
-LaTeX Info: Redefining \. on input line 98.
-LaTeX Info: Redefining \% on input line 98.
- [11]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 98.
- (C:\Program Files\MiKTeX\tex/latex/base\t1cmtt.fd
-File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-Overfull \hbox (4.64899pt too wide) in paragraph at lines 98--98
-\T1/phv/m/n/12 de se-gu-ri-dad en apli-ca-cio-nes web^^T. En: (2018). \T1/phv/m/sc/12 url\T1/phv/m/n/12 : []$\T1/cmtt/m/n/12 https : / / www . researchgate .
+Overfull \hbox (23.5934pt too wide) in paragraph at lines 101--101
+\T1/phv/m/n/12 tems Ap-pli-ca-tions,^^T \T1/phv/m/sl/12 Jour-nal of Light-wa-ve Tech-no-logy\T1/phv/m/n/12 , vol. 23, n.[] 11, págs. 3449[]3465,
  []
 
+[8
 
-Overfull \hbox (4.77013pt too wide) in paragraph at lines 98--98
-\T1/cmtt/m/n/12 net / profile / Teresa -[] Guarda / publication / 331178479 _ Mitigation _ techniques _
- []
-
-
-Overfull \hbox (66.00505pt too wide) in paragraph at lines 98--98
-\T1/cmtt/m/n/12 for _ security _ vulnerabilities _ in _ web _ applications / links / 5fabe891a6fdcc331b9478b4 /
- []
-
-
-Overfull \hbox (13.94362pt too wide) in paragraph at lines 98--98
-\T1/cmtt/m/n/12 Mitigation -[] techniques -[] for -[] security -[] vulnerabilities -[] in -[] web -[] applications .
- []
-
-(lib/8actain.tex) [12
-
-] (c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.aux
+] (c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.aux
 LaTeX Info: Redefining \sptext on input line 19.
 LaTeX Info: Redefining \. on input line 19.
 LaTeX Info: Redefining \% on input line 19.
@@ -1379,26 +1300,23 @@ LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0D8CC268A1E89DE1944CCF4DB5F6AF17;2290.
+(rerunfilecheck)             Checksum: 3893B107434C7B230B67D3ACFD87F240;1824.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39441 strings out of 474592
- 761933 string characters out of 5755614
- 1945533 words of memory out of 5000000
- 60868 multiletter control sequences out of 15000+600000
- 598882 words of font info for 75 fonts, out of 8000000 for 9000
+ 39448 strings out of 474592
+ 761284 string characters out of 5755614
+ 1935533 words of memory out of 5000000
+ 60905 multiletter control sequences out of 15000+600000
+ 587167 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,20n,106p,2416b,1914s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{glo:tic} has been referenced but does not exist, replaced by a fixed one
-
- <C:\Users\felip\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on "c:\Users\felip\OneDrive\Documentos\Unicauca\PRACTICA - TBBC\Monografia-TBBC\build\main.pdf" (18 pages, 184526 bytes).
+ 103i,9n,106p,2406b,1920s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.pdf (14 pages, 81419 bytes).
 PDF statistics:
- 319 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 154 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
