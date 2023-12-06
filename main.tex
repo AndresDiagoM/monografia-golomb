@@ -1,104 +1,64 @@
-\documentclass[12pt,a4paper,oneside,english,spanish]{book}
-\usepackage[a4paper, margin=1in]{geometry}
-\usepackage[T1]{fontenc}
-\usepackage{helvet}
-\renewcommand{\familydefault}{\sfdefault}
-\usepackage[utf8]{inputenc}
-\usepackage[spanish]{babel}
-\usepackage[document]{ragged2e}
-\usepackage{graphicx}
-\usepackage{longtable}
-\usepackage{multirow} 
-\usepackage{xcolor, colortbl}
-\usepackage{hyperref}
-\usepackage{comment}
-\usepackage{array}
-\usepackage{booktabs}
-\usepackage{bigstrut}
-\usepackage{float}
-\usepackage{longtable}
-\usepackage{pdfpages}
-\usepackage[spanish]{babel}
-% \usepackage{biblatex}
-\usepackage[
-    backend=biber,
-    style=ieee,
-    sorting=none
-]{biblatex}
-\usepackage{csquotes}
-\usepackage[acronym]{glossaries}
-\makeglossaries
-%%\usepackage{datetime}
-%%\usepackage{mfirstuc}
-%% PARA ROTAR TABLAS o PÁGINAS
-\usepackage{lscape}
+\sloppy
+\documentclass[12pt,a4paper,twoside,english,spanish]{book}
 
-%%PARA DIAGRAMAS DE GANTT
-%%\usepackage{tikz}
-\usepackage{pgfgantt}
-\usepackage{xcolor}
-
-%%%%%%%%%%%%%%%%%%PAGE SETTINGS%%%%%%%%%%%%%%%%%%%%%%
-\graphicspath{{img/}}
-\addbibresource{bibliography.bib}
-
-
-%%Color para las tablas
-%%\usepackage[table]{xcolor}% http://ctan.org/pkg/xcolor
-
-
-\title{Monografía}
-\author{}
-\date{\today}
-\setcounter{tocdepth}{3} 
+\usepackage{mypreamble} 
 
 \begin{document}
-
-    \pagenumbering{gobble} 
+    %\let\cleardoublepage\clearpage % Remove blank pages between chapters
+    \pagenumbering{roman}
     \renewcommand{\refname}{}
-    \renewcommand{\tablename}{Tabla}
 
-
-    %%--------------- PORTADA ------------------
+    %%--------------- TITLE PAGE ------------------%%
     \input{lib/0-portada}
-        
-    \newpage
-    \renewcommand{\contentsname}{\centering TABLA DE CONTENIDO}
-    \vfill
-    \tableofcontents
-    \cleardoublepage 
+    \input{lib/0.1-contraportada}
 
+    % Table of contents
+    \newpage
+    \pdfbookmark{\contentsname}{toc}
+    \renewcommand*\contentsname{\centering TABLA DE CONTENIDO}
+    \tableofcontents
+
+    % List of tables
+    \newpage
     \renewcommand{\listtablename}{\centering LISTA DE TABLAS}
     \listoftables
-    \cleardoublepage 
+    \addcontentsline{toc}{chapter}{LISTA DE TABLAS}
 
-    % lista de figuras
-    \renewcommand{\listfigurename}{\centering LISTA DE FIGURAS}
+    % List of figures
+    \newpage
+    \renewcommand{\listfigurename}{\Centering LISTA DE FIGURAS}
     \listoffigures
-    \cleardoublepage 
+    \addcontentsline{toc}{chapter}{LISTA DE FIGURAS}
 
-    %lista de acrónimos
-    \input{lib/abbreviations}
-    \cleardoublepage 
-    \printglossary[type=\acronymtype, title=\centering LISTA DE ACRÓNIMOS]
+    % List of acronyms
+    \clearpage
+    \renewcommand{\acronymname}{\centering LISTA DE ACRÓNIMOS}
+    \printglossary[type=\acronymtype, style=mystyle]
+    %\printglossary
+    \addcontentsline{toc}{chapter}{LISTA DE ACRÓNIMOS}
 
 
     \newpage
-    % Restore page numbering after the pages without numbering
     \pagenumbering{arabic}
 
+    % Chapters
+    \mainmatter
+    \input{lib/0.1-intro}
     \input{lib/1cap}
     \input{lib/2cap}
     \input{lib/3cap}
     \input{lib/4cap}
 
-    
-    \newpage
+    % References 
     \begin{center}
-        \section{REFERENCIAS}
-        % \addcontentsline{toc}{section}{Referencias} % Agrega "Referencias" al índice
+        \chapter{REFERENCIAS}
+        \printbibliography
     \end{center}
-    \printbibliography[title={}] % sin un título
     \renewcommand*{\UrlFont}{\rmfamily}
 
+    % Appendix
+    \appendix
+    \include{lib/appendix}
+
+    \backmatter
 \end{document}

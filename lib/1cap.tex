@@ -1,82 +1,75 @@
-\setcounter{page}{1}
-
-\chapter{Introducion}
-\label{chap1:introducion}
-
-El vertiginoso avance de las tecnologías de comunicación ha llevado a una creciente demanda de sistemas ópticos de transmisión que sean eficientes y capaces de manejar grandes volúmenes de datos. En este contexto, las Redes Ópticas Pasivas con Multiplexación por Longitud de Onda (PON-WDM) han emergido como una solución eficiente para la transmisión de datos en redes de acceso.
-
-Sin embargo, a medida que estas redes evolucionan para satisfacer las crecientes demandas de ancho de banda, se enfrentan a desafíos significativos. Entre ellos, la Mezcla de Cuatro Ondas (FWM) emerge como un fenómeno no lineal que puede afectar la integridad de las señales ópticas, especialmente en arquitecturas de redes Multi-Leveled Ring PON (MLR-PON).
-
-Esta monografía se sumerge en la problemática de la FWM en redes MLR-PON y propone una solución innovadora: un mecanismo dinámico basado en la asignación de canales desigualmente espaciados. Este enfoque busca contrarrestar los efectos perjudiciales de la FWM, mejorando así la calidad y eficiencia de la transmisión óptica en redes MLR-PON.
-
-A lo largo de este documento, se abordarán detalladamente los fundamentos teóricos de la FWM, la estructura y desafíos inherentes a las redes MLR-PON, y se presentará en profundidad el mecanismo dinámico propuesto. Esta investigación contribuye al desarrollo de estrategias avanzadas para la gestión del espectro óptico, promoviendo un mejor rendimiento y fiabilidad en las redes de próxima generación.
-
-El presente trabajo se estructura de la siguiente manera: en la siguiente sección, se detalla el planteamiento del problema, identificando los desafíos actuales asociados a la FWM en redes MLR-PON. Posteriormente, se describen los objetivos, metodologías y alcances de la investigación, proporcionando un marco claro para el desarrollo del estudio. Finalmente, se presentan los resultados obtenidos, el análisis correspondiente y las conclusiones, destacando la relevancia y contribuciones de este trabajo en el campo de las redes ópticas de próxima generación.
-
-\begin{center}
-    \item \section{PLANTEAMIENTO DEL PROBLEMA}
-\end{center}
-
-
+\chapter[GENERALIDADES]{\Large GENERALIDADES}
+\label{chap1:generalidades}
 \justify %%justificar los párrafos
-\vfill %espaciar los párrafos
 
-
-El avance tecnológico en las comunicaciones ópticas ha permitido la transmisión de grandes cantidades de información a través de redes de fibra óptica. Estas redes, pese a sus numerosas ventajas, enfrentan desafíos significativos derivados de fenómenos no lineales. Debido a que, a medida que la señal óptica se propaga por la fibra, hay una interacción entre la luz y el material de la fibra. Estos efectos no lineales son especialmente relevantes en los sistemas de Multiplexación por División de Longitud de Onda (WDM, \textit{Wavelength Division Multiplexing}), donde múltiples canales de diferentes longitudes de onda se transmiten simultáneamente con poca separación entre ellos. Uno de los factores críticos es la intensidad óptica, puesto que, a medida que esta aumenta, los efectos no lineales se vuelven más pronunciados. La alta intensidad óptica generada por la propagación simultánea de numerosos canales de alta potencia en la fibra puede desencadenar en distintos fenómenos críticos que afectan la comunicación óptica. \cite{Toulouse} \cite{Sing}.
-
-Dentro de estos efectos no lineales, se tiene el caso de la Mezcla de Cuatro Ondas (FWM, \textit{Four Wave Mixing}), el cual es un efecto óptico no lineal de tercer orden, que ocurre cuando dos o más señales ópticas de frecuencias centrales diferentes que se propagan en una misma fibra, que generan una mezcla entre ellas y generando nuevas componentes de frecuencia en la señal óptica o nuevas longitudes de onda, llamadas harmónicos, que tienen una frecuencia igual a la suma o la diferencia de las frecuencias de las ondas originales. Por esta razón, la FWM es el mayor efecto de ruido en sistemas WDM que emplean Asignación de Canales Igualmente Espaciados (ECS, \textit{Equal Channel Spacing}), ya que, dos o más longitudes de onda (o frecuencias) se combinan y producen varios productos de mezcla \cite{Bansal}. En las redes redes de multiplexación por longitud de onda pasiva reconfigurable (MLR-PON, \textit{Multi-Level Resilience Passive Optical Network}), la FWM puede ser particularmente problemática, debido a que, las señales de los diferentes usuarios se superponen en el mismo espacio.
-
-En la búsqueda de soluciones para reducir los efectos no lineales, como la FWM en sistemas ópticos WDM, se han propuesto diferentes enfoques, entre ellos, algoritmos de Asignación de Canales Desigualmente Espaciados (USCA, \textit{Unequally Spaced Channel Assignment}). Estos algoritmos han demostrado ser prometedores en la supresión de la diafonía generada por las señales FWM. 
-
-Para contrarrestar el efecto de la FWM, es esencial una asignación eficiente de canales en la fibra óptica. Aquí es donde las reglas de Golomb entran en juego. Estas reglas, desarrolladas originalmente en el contexto de la teoría de números, definen conjuntos de números enteros con la particularidad de que todas las sumas o diferencias de dos elementos son distintas. Este principio resulta de especial interés para la asignación de canales, puesto que, al garantizar distancias distintas entre las frecuencias, se puede mitigar el efecto de la FWM.
-
-Sin embargo, el uso de reglas de Golomb para la asignación de canales no es trivial. El proceso de búsqueda y definición de estas reglas es computacionalmente desafiante, y la tarea se torna aún más compleja a medida que se buscan conjuntos de mayor tamaño.
-
-Con ello, surge la necesidad de proponer un mecanismo dinámico que, aprovechando las propiedades matemáticas de las reglas de Golomb, permita contrarrestar el efecto de la FWM en redes MLR-PON de manera eficiente y adaptable a diferentes condiciones y requerimientos de la red.
-
-Para los canales WDM uniformemente espaciados, los términos del producto FWM generados caen sobre otros canales activos en la banda, lo que provoca una diafonía entre canales. El rendimiento puede mejorarse sustancialmente si se evita la generación de diafonía FWM en las frecuencias del canal. Es por esto que si la separación de frecuencia de cualquier par de canales de un sistema WDM óptico es diferente de la de cualquier otro par de canales, no se generarán señales de diafonía FWM en ninguna de las frecuencias del canal \cite{Bansal}. Por lo tanto, la supresión de la FWM puede tener implicaciones prácticas significativas en los sistemas WDM. Por ejemplo, una reducción en la interferencia de FWM puede permitir el uso de canales más densamente espaciados en el espectro óptico, lo que aumenta la capacidad del sistema. Además, la supresión de la FWM puede mejorar la calidad de la señal, reducir la tasa de errores de bit y aumentar la distancia de transmisión.
-
-
-Teniendo en cuenta los aspectos anteriores, se propone el diseño de un algoritmo soportado en la asignación de canales con espaciado desigual para contrarestar la diafonía FWM en una red óptica.
-
-
-%%% ---------------------------------------------- %%%
-%%%%%%  plantear la pregunta de investigación 
-En este contexto, se plantea la siguiente pregunta de investigación:
-
-¿Es posible contrarrestar los efectos de la FWM utilizando un mecanismo dinámico basado en la asignación desigual de canales?
-%¿Es posible contra restar los efectos de la FWM utilizando un algoritmo basado en regla g-golomb?
+Una vez definido el motivo y los objetivos del trabajo y antes de dar un enfoque
+directamente sobre el problema, es necesario saber la situación actual del mismo.
+Comprender el objetivo, las tecnologías y arquitecturas utilizadas, es esencial para conocer el contexto del problema. En este capítulo hablaremos sobre los conceptos principales que se van a tratar a lo largo del proyecto.
 
 
 
-%%norma iso27001 -> https://www.iso.org/standard/27001
+\section{Four Wave Mixing (FWM)}
+La Mezcla de Cuatro Ondas (FWM, por sus siglas en inglés \textit{Four Wave Mixing}) es un fenómeno no lineal que se manifiesta en sistemas de fibra óptica. Este efecto surge cuando dos o más señales ópticas, con frecuencias centrales diferentes, coexisten y se propagan a lo largo de una misma fibra.
 
-\begin{center}
-    \item  \section{OBJETIVOS}
-\end{center}
+En condiciones normales, estas señales ópticas deberían viajar independientemente sin interactuar significativamente entre sí. Sin embargo, debido a las no linealidades inherentes a la fibra óptica, como la no linealidad Kerr, las señales pueden influenciarse mutuamente.
 
-\subsection{Objetivo general}
-%%OBJETIVO GENERAL: Plantar en el objetivo general que la propuesta se va a orientar en la identificación y mitigación de vulnerabilidades de seguridad en aplicaciones que pueden ser construidas con node.js y el framework express.
+El proceso de FWM implica la generación de nuevas componentes de frecuencia en la señal óptica original. Específicamente, se generan sumas y diferencias de las frecuencias originales, dando lugar a componentes espectrales adicionales. Este fenómeno puede introducir interferencias indeseadas entre los canales de comunicación en sistemas de multiplexación por división de longitud de onda (WDM), afectando negativamente la calidad de la señal y, en última instancia, la integridad de la transmisión de datos.
 
-Proponer un mecanismo dinámico con enfoque en la asignación de canales desigualmente espaciados para contrarrestar los efectos de la mezcla de cuatro ondas en una arquitectura de red MLR-PON.
+La FWM se convierte en un desafío significativo, especialmente en entornos donde se utilizan múltiples canales con frecuencias cercanas, como en sistemas WDM con canales igualmente espaciados. La supresión efectiva de la FWM es esencial para garantizar un rendimiento óptimo en las redes ópticas y maximizar la capacidad del sistema.
 
-%Definir un proceso replicable para la validación de pre-requisitos técnicos que minimicen la presencia de vulnerabilidades en plataformas desarrolladas en la empresa WIZIT MIND BLOWING SOLUTIONS S.A.S con Node.js y el framework express.
+En el contexto de este trabajo, la propuesta de un mecanismo dinámico para contrarrestar la FWM en una red MLR-PON busca abordar este desafío, utilizando estrategias como la asignación de canales desigualmente espaciados y algoritmos optimizados para mitigar los efectos perjudiciales de la FWM.
 
-\subsection{Objetivos específicos}
-\begin{itemize}
-    
-    \item Diseñar a nivel de simulación y en un ambiente controlado una arquitectura de red MLR-PON.
 
-    %incluir algo relacionado con el echo de inlcuir algoritmos matemáticos 
-    \item Definir un algoritmo matemático basado en un mecanismo dinámico para contrarrestar los efectos de la mezcla de cuatro ondas.
-    %Definir un algoritmo matemático para contrarrestar los efectos de la mezcla de cuatro ondas.
-    %Proponer un algoritmo para contrarrestar los efectos de la mezcla de cuatro ondas.
+\section{Redes MLR-PON}
+Una Red de Acceso de Largo Alcance con Múltiples Longitudes de Onda (MLR-PON, por sus siglas en inglés \textit{Long-Reach Multiple Wavelength Passive Optical Network}) es una variante evolucionada de la \acrfull{pon}. A diferencia de las PON convencionales, las MLR-PON están específicamente diseñadas para proporcionar alcances extendidos, lo que las hace adecuadas para entornos donde se requiere cobertura en áreas geográficas más extensas.
 
-    %Analizar comparativamente el efecto de la implementación del algoritmo.
-    \item Analizar comparativamente el efecto de la inclusión del mecanismo propuesto.
-\end{itemize}
+Las redes MLR-PON logran este aumento en el alcance mediante el empleo de múltiples longitudes de onda en la transmisión de señales ópticas a través de la fibra. Cada longitud de onda puede considerarse como un canal independiente, lo que permite la transmisión simultánea de datos a diferentes velocidades y servicios.
 
-\begin{center}
-    \item  \section{METODOLOGÍA}
-\end{center}
-Con respecto a la metodología, se ha decidido utilizar la metodología en cascada, la cual es un enfoque secuencial que permite dividir el proyecto en fases bien definidas. Cada fase debe ser completada antes de avanzar a la siguiente, siguiendo un flujo de trabajo lineal. Aunque esta metodología es ampliamente utilizada en el desarrollo de software, también puede ser aplicada a otros tipos de proyectos.
+Este enfoque de múltiples longitudes de onda no solo extiende el alcance de la red, sino que también proporciona una mayor flexibilidad y capacidad de ancho de banda. Además, las MLR-PON son compatibles con servicios de voz, datos y video, ofreciendo una solución integral para las demandas crecientes de conectividad en entornos residenciales y empresariales.
+
+La implementación de MLR-PON se ha vuelto crucial para superar las limitaciones de distancia asociadas con las PON tradicionales, especialmente en áreas geográficas dispersas. En el contexto de este trabajo, la propuesta de un mecanismo dinámico para contrarrestar la Mezcla de Cuatro Ondas (FWM) se enfoca en optimizar el rendimiento de las MLR-PON, abordando los desafíos específicos asociados con la interferencia no lineal en este tipo de redes.
+
+
+\section{Asignación de Canales Desigualmente Espaciados}
+La asignación de canales desigualmente espaciados es una estrategia de gestión del espectro en sistemas de transmisión óptica, donde las longitudes de onda utilizadas para la transmisión no siguen una separación uniforme. En contraste con la asignación de canales igualmente espaciados, donde la distancia entre las longitudes de onda adyacentes es constante, la asignación desigual implica una distribución no uniforme de las longitudes de onda a lo largo del espectro óptico.
+
+Esta técnica se utiliza para abordar problemas específicos relacionados con la interferencia y la diafonía en sistemas ópticos, especialmente en entornos de multiplexación por división de longitud de onda (WDM). La asignación desigual de canales puede optimizarse para minimizar la interferencia no lineal, como la Mezcla de Cuatro Ondas (FWM, por sus siglas en inglés \textit{Four Wave Mixing}), que puede ocurrir cuando las señales ópticas tienen intensidades significativas y se propagan simultáneamente en la fibra.
+
+Esta estrategia permite adaptar la distribución de las longitudes de onda a las características específicas de la red óptica, teniendo en cuenta las propiedades de transmisión de la fibra y los efectos no lineales asociados. Al asignar desigualmente las longitudes de onda, se pueden evitar ciertos patrones que contribuyen a la interferencia no deseada, mejorando así el rendimiento del sistema.
+
+En el contexto de este trabajo, la propuesta de un mecanismo dinámico para contrarrestar la FWM en una red MLR-PON se centra en la asignación de canales desigualmente espaciados como una estrategia clave para mitigar los efectos no lineales y mejorar la calidad de la transmisión en este tipo de arquitecturas.
+
+
+\section{Reglas de Golomb}
+Las reglas de Golomb y su variante generalizada, conocida como reglas g-Golomb, desempeñan un papel crucial en la asignación de canales en sistemas ópticos, especialmente en el contexto de la multiplexación por longitud de onda (WDM). Estas reglas se basan en conjuntos de enteros positivos que exhiben propiedades matemáticas particulares, lo que las hace extremadamente útiles en la resolución de problemas asociados con la interferencia de señales ópticas \cite{Apostolos}.
+
+En su forma más fundamental, las reglas de Golomb son conjuntos de números enteros positivos en los que las diferencias entre los elementos son distintas y están distribuidas de manera uniforme. Este comportamiento único proporciona una propiedad valiosa para la asignación de frecuencias en sistemas WDM, donde la interferencia entre canales adyacentes es una preocupación significativa.
+
+La generalización de estas reglas, conocida como reglas g-Golomb, extiende su aplicabilidad al permitir conjuntos de enteros más grandes con distancias que pueden repetirse un número limitado de veces. Esta flexibilidad es esencial al abordar problemas prácticos en la asignación de canales, ya que se pueden crear conjuntos más grandes y complejos, lo que resulta beneficioso para contrarrestar fenómenos no lineales como la mezcla de cuatro ondas (FWM).
+
+Al utilizar reglas de Golomb o g-Golomb en la asignación de frecuencias, se logra una distribución estratégica de los canales que ayuda a mitigar la interferencia y optimizar el rendimiento del sistema. Además, al evitar la necesidad de búsquedas computacionales exhaustivas en conjuntos de mayor orden, como es el caso con las reglas g-Golomb, se facilita el diseño de algoritmos eficientes para la asignación de canales en sistemas ópticos avanzados.
+
+En este contexto, explorar las propiedades y aplicaciones de las reglas de Golomb y su generalización se convierte en un componente esencial de la investigación y el desarrollo de soluciones para los desafíos asociados con la FWM en sistemas de comunicaciones ópticas.
+
+\section{Algoritmos para Asignación de Canales}
+Los algoritmos para la asignación de canales desempeñan un papel crucial en la eficiencia y el rendimiento de los sistemas de comunicaciones ópticas, especialmente en entornos donde la interferencia entre canales es una consideración crítica. Estos algoritmos son esenciales para optimizar la distribución de frecuencias en sistemas de multiplexación por longitud de onda (WDM), y su diseño adecuado puede influir significativamente en la reducción de fenómenos no lineales, como la mezcla de cuatro ondas (FWM).
+
+En el corazón de la asignación de canales se encuentra la necesidad de evitar la interferencia entre las señales ópticas transmitidas simultáneamente en una fibra. Los algoritmos dedicados a esta tarea buscan una distribución espacial y espectral eficiente de los canales, maximizando el ancho de banda disponible y minimizando la diafonía.
+
+Estos algoritmos pueden clasificarse en diversas categorías, que incluyen métodos de asignación uniforme y métodos de asignación desigualmente espaciados. Mientras que los métodos de asignación uniforme buscan una separación constante entre las frecuencias de los canales, los métodos desigualmente espaciados, como los basados en reglas de Golomb o g-Golomb, buscan una separación no uniforme para minimizar la interferencia.
+
+La complejidad de estos algoritmos varía según el enfoque y la naturaleza específica del sistema en cuestión. Algunos algoritmos se centran en la búsqueda exhaustiva de conjuntos óptimos, mientras que otros pueden aprovechar enfoques heurísticos para ofrecer soluciones rápidas y eficientes.
+
+En el contexto de esta investigación, se explorarán y evaluarán algoritmos específicos, incluidos aquellos que aprovechan las propiedades de las reglas g-Golomb para la asignación de canales desigualmente espaciados. La ventaja de estos algoritmos radica en su capacidad para abordar problemas de interferencia y diafonía, proporcionando soluciones óptimas o aproximadas que mejoran el rendimiento general del sistema.
+
+La investigación y desarrollo de algoritmos para la asignación de canales se convierte así en un aspecto esencial para abordar los desafíos asociados con la FWM en redes de multiplexación por longitud de onda pasiva reconfigurable (MLR-PON).
+
+\section{Monitoreo de Desempeño Óptico - OPM}
+
+El monitoreo de desempeño óptico (OPM) representa una faceta crítica en la gestión de redes de comunicación óptica, desempeñando un papel clave en la evaluación y aseguramiento de la calidad de la transmisión de señales ópticas. Esta técnica proporciona una visión detallada de diversos parámetros ópticos, permitiendo una supervisión en tiempo real y una respuesta proactiva a posibles problemas que puedan afectar el rendimiento del sistema.
+
+En el contexto de la tesis, el OPM se erige como una herramienta fundamental para evaluar la integridad de las señales ópticas en una red MLR-PON, donde la interferencia y los fenómenos no lineales, como la mezcla de cuatro ondas (FWM), pueden tener un impacto significativo.
+
+El monitoreo de desempeño óptico implica la medición de diversas magnitudes, como la potencia óptica, la atenuación y la calidad de la señal. Estos datos son esenciales para evaluar la salud general del sistema y para anticipar cualquier degradación del rendimiento antes de que afecte la calidad de la transmisión.
+
+La integración de herramientas de OPM en una red MLR-PON permite la identificación temprana de posibles puntos problemáticos, facilitando así la implementación de medidas correctivas. Esto resulta crucial en entornos dinámicos, donde las condiciones de la red pueden cambiar debido a factores ambientales, mantenimiento, o variaciones en la demanda del servicio.

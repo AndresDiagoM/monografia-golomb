@@ -1,17 +1,52 @@
-\newacronym{ai}{AI}{Artificial Intelligence}
-\newacronym{ml}{ML}{Machine Learning}
+%%------------- ACROYNMS ---------------
+%--An acronym is a type of abbreviation formed from the initial letters of a phrase and pronounced as a word.
+%--For example NASA (National Aeronautics and Space Administration)
+%--all acronyms are abbreviations, but not all abbreviations are acronyms.
+\newacronym{gcd}{GCD}{Greatest Common Divisor}
+\newacronym{lcm}{LCM}{Least Common Multiple}
+\newacronym{pmi}{PMI}{Project Management Institute}
+\newacronym{pmbok}{PMBOK}{Project Management Body of Knowledge}
 \newacronym{tic}{TIC}{Tecnologías de la Información y de las Comunicaciones}
+\newacronym{fwm}{FWM}{Mezcla de Cuatro Ondas \textit{(Four Wave Mixing)}}
+\newacronym{MLR-PON}{MLR-PON}{Redes de Multiplexación por Longitud de Onda Pasiva Reconfigurable (\textit{Multi-Level Resilience Passive Optical Network})}
+\newacronym{USCA}{USCA}{Supresión de Cruce de Señales Acústicas}
+\newacronym{wdm}{WDM}{Multiplexación por División de Longitud de Onda}
+\newacronym{pon}{PON}{Red Óptica Pasiva}
 
 
-\begin{table}[h]
-    \begin{tabular}{lcl}
-        CNPq & – & Conselho Nacional de Desenvolvimento Científico e Tecnológico \\
-        DS & – & Desenvolvimento Sustentável \\
-        ITV & – & Instituto Tecnológico Vale \\
-        MI & – & Mineração \\
-        UFOP & – & Universidade Federal de Ouro Preto
-    \end{tabular}
-\end{table}
+%%---- ABBREVIATIONS ----
+%--An abbreviation is a shortened form of a word or phrase.
+%--For example, the word abbreviation can itself be represented by the abbreviation abbr., abbrv., or abbrev.
+\newglossaryentry{latex}
+{
+    name=latex,
+    description={Is a markup language specially suited
+            for scientific documents}
+}
+\newglossaryentry{maths}
+{
+    name=mathematics,
+    description={Mathematics is what mathematicians do}
+}
+\newglossaryentry{FWM}
+{
+    name=mezcla de cuatro ondas,
+    description={Mezcla de Cuatro Ondas}
+}
 
-% OBSERVACIÓN:
-% Incluir en orden alfabética
+%%---- HOW TO USE ----
+%--\gls{gcd} -> GCD
+%--\gls{latex} -> latex - minúscula
+
+%--\Gls{gcd} -> Greatest Common Divisor (GCD) - same as \acrfull{gcd}
+%--\Gls{latex} -> Latex - mayúscula
+
+%--\glspl{gcd} -> Greatest Common Divisors (GCDs)
+%--\glspl{latex} -> Latexes
+
+%--\Glspl{gcd} -> Greatest Common Divisors (GCDs)
+%--\Glspl{latex} -> Latexes
+
+%--\acrshort{gcd} -> GCD
+%--\acrlong{gcd} -> Greatest Common Divisor
+%--\acrfull{gcd} -> Greatest Common Divisor (GCD)

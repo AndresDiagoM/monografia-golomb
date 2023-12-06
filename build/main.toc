@@ -1,19 +1,19 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{\numberline {1}Introducion}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}PLANTEAMIENTO DEL PROBLEMA}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}OBJETIVOS}{3}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Objetivo general}{3}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Objetivos específicos}{3}{subsection.1.2.2}%
-\contentsline {section}{\numberline {1.3}METODOLOGÍA}{3}{section.1.3}%
-\contentsline {chapter}{\numberline {2}CONCEPTOS Y TECNOLOGÍAS}{4}{chapter.2}%
-\contentsline {subsection}{\numberline {2.0.1}Four Wave Mixing (FWM)}{4}{subsection.2.0.1}%
-\contentsline {subsection}{\numberline {2.0.2}Redes MLR-PON}{5}{subsection.2.0.2}%
-\contentsline {subsection}{\numberline {2.0.3}Asignación de Canales Desigualmente Espaciados}{5}{subsection.2.0.3}%
-\contentsline {subsection}{\numberline {2.0.4}Reglas de Golomb}{6}{subsection.2.0.4}%
-\contentsline {subsection}{\numberline {2.0.5}Algoritmos para Asignación de Canales}{6}{subsection.2.0.5}%
-\contentsline {subsection}{\numberline {2.0.6}Simulación por Agentes}{6}{subsection.2.0.6}%
-\contentsline {subsection}{\numberline {2.0.7}Mecanismos Dinámicos}{6}{subsection.2.0.7}%
-\contentsline {subsection}{\numberline {2.0.8}Efectos No Lineales en Fibra Óptica}{6}{subsection.2.0.8}%
-\contentsline {chapter}{\numberline {3}MECANISMO DINÁMICO}{7}{chapter.3}%
-\contentsline {chapter}{\numberline {4}DISEÑO DEL PROCESO}{8}{chapter.4}%
-\contentsline {section}{\numberline {4.1}REFERENCIAS}{9}{section.4.1}%
+\contentsline {chapter}{LISTA DE TABLAS}{\es@scroman {v}}{chapter*.2}%
+\contentsline {chapter}{LISTA DE FIGURAS}{\es@scroman {vii}}{chapter*.3}%
+\contentsline {chapter}{LISTA DE ACRÓNIMOS}{\es@scroman {viii}}{chapter*.3}%
+\contentsline {chapter}{INTRODUCCIÓN}{1}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}GENERALIDADES}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Four Wave Mixing (FWM)}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Redes MLR-PON}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Asignación de Canales Desigualmente Espaciados}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Reglas de Golomb}{5}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Algoritmos para Asignación de Canales}{6}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Monitoreo de Desempeño Óptico - OPM}{7}{section.1.6}%
+\contentsline {chapter}{\numberline {2}MARCO METODOLÓGICO}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Herramienta de Simulación}{9}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}OptSim}{9}{subsection.2.1.1}%
+\contentsline {chapter}{\numberline {3}ANÁLISIS DEL DESEMPEÑO}{11}{chapter.3}%
+\contentsline {chapter}{\numberline {4}CONCLUSIONES}{13}{chapter.4}%
+\contentsline {chapter}{\numberline {5}REFERENCIAS}{15}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Anexo}{19}{appendix.Alph1}%

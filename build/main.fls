@@ -8,22 +8,8 @@ INPUT C:\Program Files\MiKTeX\tex\latex\base\bk12.clo
 INPUT C:\Program Files\MiKTeX\tex\latex\base\bk12.clo
 INPUT C:\Program Files\MiKTeX\tex\latex\base\bk12.clo
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm1200.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\helvet.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\helvet.sty
+INPUT .\mypreamble.sty
+INPUT mypreamble.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
@@ -50,18 +36,6 @@ INPUT C:\Program Files\MiKTeX\tex\latex\ragged2e\ragged2e.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\ragged2e\ragged2e.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\footmisc\footmisc.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\footmisc\footmisc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty
@@ -71,6 +45,9 @@ INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
@@ -83,10 +60,14 @@ INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\infwarerr\infwarerr.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
@@ -138,23 +119,6 @@ INPUT C:\Program Files\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\comment\comment.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\comment\comment.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\booktabs\booktabs.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\booktabs\booktabs.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\multirow\bigstrut.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\multirow\bigstrut.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\pdfpages\pdfpages.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\pdfpages\pdfpages.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\eso-pic\eso-pic.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\eso-pic\eso-pic.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\pdfpages\pppdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\pdfpages\pppdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\pdfpages\pppdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\biblatex.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\logreq\logreq.sty
@@ -162,6 +126,8 @@ INPUT C:\Program Files\MiKTeX\tex\latex\logreq\logreq.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\logreq\logreq.def
 INPUT C:\Program Files\MiKTeX\tex\latex\logreq\logreq.def
 INPUT C:\Program Files\MiKTeX\tex\latex\logreq\logreq.def
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-dm.def
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-dm.def
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\blx-dm.def
@@ -292,10 +258,23 @@ INPUT C:\Program Files\MiKTeX\tex\latex\glossaries\styles\glossary-super.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\supertabular\supertabular.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\glossaries\styles\glossary-tree.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\glossaries\styles\glossary-tree.sty
-OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.glo
-OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.acn
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\capt-of\capt-of.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\capt-of\capt-of.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\booktabs\booktabs.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgfgantt\pgfgantt.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgfgantt\pgfgantt.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
@@ -313,6 +292,8 @@ INPUT C:\Program Files\MiKTeX\tex\generic\pgf\pgf.revision.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\pgf.revision.tex
 INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
@@ -417,10 +398,68 @@ INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgfcalendar.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfcalendar.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfcalendar.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfcalendar.code.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\lmodern.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\lmodern.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\helvet.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\helvet.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\t1phv.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\t1phv.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\t1phv.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\verbatim.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\verbatim.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pdfpages\pdfpages.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\eso-pic\eso-pic.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\multirow\bigstrut.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\multirow\bigstrut.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\subfigure\subfigure.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\subfigure\subfigure.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\subfigure\subfigure.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\subfigure\subfigure.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\subfigure\subfigure.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\xspace.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\lipsum\lipsum.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\lipsum\lipsum.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\lipsum\lipsum.ltd.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\lipsum\lipsum.ltd.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.glo
+OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.acn
+INPUT .\lib\abbreviations.tex
+INPUT .\lib\abbreviations.tex
+INPUT lib\abbreviations.tex
 INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.aux
 INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.aux
 INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.aux
@@ -441,10 +480,6 @@ OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build
 INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.out
 INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.out
 OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.out
-INPUT C:\Program Files\MiKTeX\tex\latex\pdflscape\pdflscape.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\pdflscape\pdflscape.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
 INPUT C:\Program Files\MiKTeX\tex\latex\biblatex\lbx\spanish.lbx
@@ -470,27 +505,32 @@ INPUT C:\Program Files\MiKTeX\tex\latex\translator\translator-months-dictionary-
 INPUT C:\Program Files\MiKTeX\tex\latex\translator\translator-months-dictionary-Spanish.dict
 INPUT C:\Program Files\MiKTeX\tex\latex\translator\translator-months-dictionary-Spanish.dict
 INPUT C:\Program Files\MiKTeX\tex\latex\translator\translator-months-dictionary-Spanish.dict
+INPUT C:\Program Files\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pdflscape\pdflscape.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
 INPUT .\lib\0-portada.tex
 INPUT .\lib\0-portada.tex
 INPUT .\lib\0-portada.tex
 INPUT .\lib\0-portada.tex
 INPUT lib\0-portada.tex
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
-INPUT .\img\logo-unicauca.png
-INPUT .\img\logo-unicauca.png
-INPUT .\img\logo-unicauca.png
-INPUT .\img\logo-unicauca.png
-INPUT .\img\logo-unicauca.png
-INPUT .\img\logo-unicauca.png
-INPUT .\img\logo-unicauca.png
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
+INPUT .\img\logo-unicauca-n.jpg
+INPUT .\img\logo-unicauca-n.jpg
+INPUT .\img\logo-unicauca-n.jpg
+INPUT .\img\logo-unicauca-n.jpg
+INPUT .\img\logo-unicauca-n.jpg
+INPUT .\img\logo-unicauca-n.jpg
+INPUT .\img\logo-unicauca-n.jpg
+INPUT .\lib\0.1-contraportada.tex
+INPUT .\lib\0.1-contraportada.tex
+INPUT lib\0.1-contraportada.tex
 OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.ist
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT C:\Users\felip\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\base\8r.enc
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvro8t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
@@ -498,20 +538,51 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
 INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.toc
 INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.toc
 INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.toc
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\ot1lmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\ot1lmr.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\ot1lmr.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\rm-lmr12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\rm-lmr8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\rm-lmr6.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omllmm.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omllmm.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omllmm.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmmi12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmmi8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmmi6.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omslmsy.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omslmsy.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omslmsy.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmsy8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmsy6.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omxlmex.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omxlmex.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\omxlmex.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmex10.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.toc
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvrc8t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvrc8t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
 INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.lot
 INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.lot
 INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.lot
@@ -520,30 +591,27 @@ INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\
 INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.lof
 INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.lof
 OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.lof
-INPUT .\lib\abbreviations.tex
-INPUT .\lib\abbreviations.tex
-INPUT .\lib\abbreviations.tex
-INPUT .\lib\abbreviations.tex
-INPUT lib\abbreviations.tex
-OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.glsdefs
+INPUT .\lib\0.1-intro.tex
+INPUT .\lib\0.1-intro.tex
+INPUT lib\0.1-intro.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvro8t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvro8t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
 INPUT .\lib\1cap.tex
 INPUT .\lib\1cap.tex
 INPUT .\lib\1cap.tex
 INPUT .\lib\1cap.tex
 INPUT lib\1cap.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
 INPUT .\lib\2cap.tex
 INPUT .\lib\2cap.tex
 INPUT .\lib\2cap.tex
 INPUT .\lib\2cap.tex
 INPUT lib\2cap.tex
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
 INPUT .\lib\3cap.tex
 INPUT .\lib\3cap.tex
 INPUT .\lib\3cap.tex
@@ -555,9 +623,18 @@ INPUT .\lib\4cap.tex
 INPUT .\lib\4cap.tex
 INPUT lib\4cap.tex
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT .\lib\appendix.tex
+INPUT .\lib\appendix.tex
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvr8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
+OUTPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\lib\appendix.aux
+INPUT .\lib\appendix.tex
+INPUT .\lib\appendix.tex
+INPUT lib\appendix.tex
 INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.aux
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\lib\appendix.aux
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\lib\appendix.aux
+INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\lib\appendix.aux
 INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.out
 INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.out
 INPUT c:\Users\felip\OneDrive\Documentos\Unicauca\TESIS\Monografia-golomb\build\main.run.xml

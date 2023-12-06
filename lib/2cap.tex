@@ -1,55 +1,17 @@
-\chapter{CONCEPTOS Y TECNOLOGÍAS}
-\label{chap2:conceptos}
+\chapter[MARCO METODOLÓGICO]{\Large MARCO METODOLÓGICO}
+\label{chap2:marco}
 
-Una vez definido el motivo y los objetivos del trabajo y antes de dar un enfoque
-directamente sobre el problema, es necesario saber la situación actual del mismo.
-Comprender el objetivo, las tecnologías y arquitecturas utilizadas, es esencial para conocer el contexto del problema. En este capítulo hablaremos sobre los conceptos principales que se van a tratar a lo largo del proyecto.
+En este capítulo se presentan las herramientas y procedimientos abordados en la
+realización del trabajo de grado. Así mismo, se describe la herramienta de software
+escogida para el diseño y la simulación de la red. Luego, se presenta la metodología seleccionada y su aplicación dentro del trabajo de grado.
 
+\section{Herramienta de Simulación}
 
+Es esencial llevar a cabo una simulación o modelado exhaustivo de un sistema de comunicaciones antes de su implementación real. En este sentido, resulta fundamental escoger una herramienta o software de simulación que permita monitorear y analizar eficazmente el comportamiento de la señal a través del canal óptico deseado. La herramienta debe posibilitar la recreación del funcionamiento de la red en un entorno lo más cercano posible a la realidad, facilitando la evaluación del rendimiento mediante la consideración de los parámetros de Monitoreo de Desempeño Óptico (OPM). 
+En la presente sección, se presenta y describe la herramienta de simulación. Así mismo, se analiza su comportamiento, la disponibilidad de licencia (en caso de ser aplicable) y la capacidad de implementar tecnologías a nivel de enlace y de red. A continuación, la descripción de la herramienta a considerar:
 
-\subsection{Four Wave Mixing (FWM)}
-La Mezcla de Cuatro Ondas (FWM, por sus siglas en inglés \textit{Four Wave Mixing}) es un fenómeno no lineal que se manifiesta en sistemas de fibra óptica. Este efecto surge cuando dos o más señales ópticas, con frecuencias centrales diferentes, coexisten y se propagan a lo largo de una misma fibra.
+\subsection{OptSim}
 
-En condiciones normales, estas señales ópticas deberían viajar independientemente sin interactuar significativamente entre sí. Sin embargo, debido a las no linealidades inherentes a la fibra óptica, como la no linealidad Kerr, las señales pueden influenciarse mutuamente.
+OptSim es una herramienta desarrollada por Synopsys, basada en un entorno de simulación y modelado intuitivo destinado al diseño y la evaluación del rendimiento en el nivel de transmisión de sistemas de comunicaciones ópticas. Esta herramienta dispone de una amplia librería que incluye los componentes más comúnmente utilizados en sistemas de comunicaciones ópticas, clasificados en diversas categorías como transmisores, generadores de señales, fibras ópticas, multiplexores, demultiplexores, receptores, entre otros.
 
-El proceso de FWM implica la generación de nuevas componentes de frecuencia en la señal óptica original. Específicamente, se generan sumas y diferencias de las frecuencias originales, dando lugar a componentes espectrales adicionales. Este fenómeno puede introducir interferencias indeseadas entre los canales de comunicación en sistemas de multiplexación por división de longitud de onda (WDM), afectando negativamente la calidad de la señal y, en última instancia, la integridad de la transmisión de datos.
-
-La FWM se convierte en un desafío significativo, especialmente en entornos donde se utilizan múltiples canales con frecuencias cercanas, como en sistemas WDM con canales igualmente espaciados. La supresión efectiva de la FWM es esencial para garantizar un rendimiento óptimo en las redes ópticas y maximizar la capacidad del sistema.
-
-En el contexto de este trabajo, la propuesta de un mecanismo dinámico para contrarrestar la FWM en una red MLR-PON busca abordar este desafío, utilizando estrategias como la asignación de canales desigualmente espaciados y algoritmos optimizados para mitigar los efectos perjudiciales de la FWM.
-
-
-\subsection{Redes MLR-PON}
-Una Red de Acceso de Largo Alcance con Múltiples Longitudes de Onda (MLR-PON, por sus siglas en inglés \textit{Long-Reach Multiple Wavelength Passive Optical Network}) es una variante evolucionada de la Red Óptica Pasiva (PON). A diferencia de las PON convencionales, las MLR-PON están específicamente diseñadas para proporcionar alcances extendidos, lo que las hace adecuadas para entornos donde se requiere cobertura en áreas geográficas más extensas.
-
-Las redes MLR-PON logran este aumento en el alcance mediante el empleo de múltiples longitudes de onda en la transmisión de señales ópticas a través de la fibra. Cada longitud de onda puede considerarse como un canal independiente, lo que permite la transmisión simultánea de datos a diferentes velocidades y servicios.
-
-Este enfoque de múltiples longitudes de onda no solo extiende el alcance de la red, sino que también proporciona una mayor flexibilidad y capacidad de ancho de banda. Además, las MLR-PON son compatibles con servicios de voz, datos y video, ofreciendo una solución integral para las demandas crecientes de conectividad en entornos residenciales y empresariales.
-
-La implementación de MLR-PON se ha vuelto crucial para superar las limitaciones de distancia asociadas con las PON tradicionales, especialmente en áreas geográficas dispersas. En el contexto de este trabajo, la propuesta de un mecanismo dinámico para contrarrestar la Mezcla de Cuatro Ondas (FWM) se enfoca en optimizar el rendimiento de las MLR-PON, abordando los desafíos específicos asociados con la interferencia no lineal en este tipo de redes.
-
-
-\subsection{Asignación de Canales Desigualmente Espaciados}
-La asignación de canales desigualmente espaciados es una estrategia de gestión del espectro en sistemas de transmisión óptica, donde las longitudes de onda utilizadas para la transmisión no siguen una separación uniforme. En contraste con la asignación de canales igualmente espaciados, donde la distancia entre las longitudes de onda adyacentes es constante, la asignación desigual implica una distribución no uniforme de las longitudes de onda a lo largo del espectro óptico.
-
-Esta técnica se utiliza para abordar problemas específicos relacionados con la interferencia y la diafonía en sistemas ópticos, especialmente en entornos de multiplexación por división de longitud de onda (WDM). La asignación desigual de canales puede optimizarse para minimizar la interferencia no lineal, como la Mezcla de Cuatro Ondas (FWM, por sus siglas en inglés \textit{Four Wave Mixing}), que puede ocurrir cuando las señales ópticas tienen intensidades significativas y se propagan simultáneamente en la fibra.
-
-Esta estrategia permite adaptar la distribución de las longitudes de onda a las características específicas de la red óptica, teniendo en cuenta las propiedades de transmisión de la fibra y los efectos no lineales asociados. Al asignar desigualmente las longitudes de onda, se pueden evitar ciertos patrones que contribuyen a la interferencia no deseada, mejorando así el rendimiento del sistema.
-
-En el contexto de este trabajo, la propuesta de un mecanismo dinámico para contrarrestar la FWM en una red MLR-PON se centra en la asignación de canales desigualmente espaciados como una estrategia clave para mitigar los efectos no lineales y mejorar la calidad de la transmisión en este tipo de arquitecturas.
-
-
-\subsection{Reglas de Golomb}
-Las reglas de Golomb, y su generalización, las reglas g-Golomb, son conjuntos de enteros positivos con propiedades específicas utilizadas en la asignación de canales en sistemas ópticos.
-
-\subsection{Algoritmos para Asignación de Canales}
-Existen diversos algoritmos para asignar canales en redes ópticas, algunos se centran en la optimización de la distancia entre canales.
-
-\subsection{Simulación por Agentes}
-El uso de técnicas de simulación por agentes permite modelar y simular el comportamiento dinámico de la red.
-
-\subsection{Mecanismos Dinámicos}
-Un mecanismo dinámico implica la capacidad de adaptarse y cambiar en respuesta a las condiciones cambiantes de la red.
-
-\subsection{Efectos No Lineales en Fibra Óptica}
-Además de la FWM, otros efectos no lineales como la dispersión y la atenuación deben considerarse al diseñar una red óptica.
+Esta estructura permite lograr un equilibrio óptimo entre precisión y eficiencia temporal, facilitando la optimización de los diseños para mejorar el rendimiento y reducir costos. OptSim se distingue por su elevado nivel de eficiencia y precisión, mientras que su interfaz gráfica es de fácil manipulación, lo que contribuye a una experiencia de usuario intuitiva y eficaz.

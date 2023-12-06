@@ -1,0 +1,135 @@
+\ProvidesPackage{mypreamble}
+
+%---------------------------------------------------%
+%----------------- Useful libraries ----------------%
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,,es-tabla]{babel}
+\usepackage[document]{ragged2e} 
+\usepackage{longtable}
+\usepackage{multirow} 
+\usepackage{xcolor, colortbl}
+%\usepackage{hyperref}
+\usepackage[breaklinks]{hyperref}
+\usepackage{comment}
+% \usepackage{biblatex}
+\usepackage[
+    backend=biber,
+    style=ieee,
+    sorting=none
+]{biblatex}
+\usepackage{csquotes}
+\usepackage[acronym]{glossaries}
+%%\usepackage{datetime}
+%%\usepackage{mfirstuc}
+\usepackage{lscape} %%-- ROTAR TABLAS o PÁGINAS
+\usepackage{array}
+\usepackage{float}
+\usepackage{longtable}
+\usepackage{capt-of}
+\usepackage{tabularx}  % Para tablas con ancho ajustable
+\usepackage{booktabs}  % heavier lines in tables: bottom-rule
+%\usepackage{tocloft}
+% ---------------------
+%--- DIAGRAMAS DE GANTT
+%%\usepackage{tikz}
+\usepackage{pgfgantt}
+\usepackage{xcolor}
+% -----
+% Tikz
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+\tikzstyle{Rectangulo} = [rectangle, rounded corners, minimum width=1cm, minimum height=1cm,text centered, draw=black, fill=orange!30]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+% -----
+% Fonts
+\usepackage{lmodern}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[T1]{fontenc}
+% -----------
+% Other fonts
+\usepackage{listings}
+\usepackage{verbatim}
+% -------
+% Margins
+\usepackage[letterpaper]{geometry}
+\geometry{
+    verbose,tmargin=3cm,bmargin=2.5cm,
+    lmargin=3cm,rmargin=2.5cm,
+    headheight=3cm,headsep=1cm
+}
+% -----------
+% Hyphenation
+%\usepackage[american]{babel}
+% -------------
+% Alignment
+\usepackage{array} %-- arrays and tables(columns types)
+% -------------
+% External PDFs
+\usepackage{pdfpages}
+% ----
+% Math
+\usepackage{amsmath}
+% -------
+% Symbols
+\usepackage{amssymb}
+% --------
+% Graphics
+\usepackage{bigstrut}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{xspace}
+\usepackage{lipsum}  
+
+% ===============
+% LaTeX UTILITIES
+% ===============
+% ----------------
+% hyperref package settings - hyperlinks
+\hypersetup{
+    pdftitle={Desarrollo de un proceso replicable de seguridad en capas para aplicaciones web con Node.js: Identificación y mitigación de vulnerabilidades comunes.},
+    pdfauthor={Andres Felipe Diago},
+    colorlinks=true,
+    citecolor=blue,
+    linkcolor=black,
+    urlcolor=green
+}
+
+%%---------------------------------------------%%
+%%--------------- PAGE SETTINGS ---------------%%
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[LE,RO]{\thepage}
+% \fancyhead[RE]{\scriptsize \slshape \leftmark}  
+% ---> \scriptsize is the font size, \slshape is the font style, \leftmark is the current section
+% ---> instead of \scriptsize \slshape you can use \small \itshape or \footnotesize \upshape 
+\fancyhead[RE]{\footnotesize \upshape \leftmark} 
+\fancyhead[LO]{\footnotesize \upshape \rightmark}
+\fancyfoot[C]{}
+% \renewcommand{\headrulewidth}{0pt}  % Add a rule below the header
+% \renewcommand{\footrulewidth}{0pt}  % Add a rule above the page number
+
+\graphicspath{{img/}}
+\graphicspath{{figures/}}
+\makeglossaries
+\loadglsentries{lib/abbreviations.tex}
+\addbibresource{bibliography.bib}
+
+%-- style of the acronym list
+\newglossarystyle{mystyle}{%
+  \setglossarystyle{long3col}
+  \renewenvironment{theglossary}%
+     {\begin{longtable}[l]{@{}p{2.5cm}p{13.5cm}p{\glspagelistwidth}@{}}}% Ajusta el formato de la tabla
+    {\end{longtable}}%
+  \renewcommand*{\glossaryheader}{}%
+  \renewcommand*{\glossentry}[2]{%
+    \glsentryitem{##1}
+    \textbf{\glstarget{##1}{\glossentryname{##1}}}% Imprime el nombre
+    &% Separador
+    \glossentrydesc{##1}% Imprime la descripción
+    \tabularnewline% Nueva línea
+  }%
+  \renewcommand*{\glsgroupskip}{}% Evita el espacio entre grupos
+}
+
+\setlength{\parskip}{0.5em}
